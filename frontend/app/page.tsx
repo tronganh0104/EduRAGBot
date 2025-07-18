@@ -50,16 +50,32 @@ export default function ModernChat() {
     setMessages((prev) => [...prev, userMsg])
     setInput("")
     setIsLoading(true)
-    // Thay vì gọi API, chỉ trả về 1 câu placeholder
-    setTimeout(() => {
+    try {
+      const res = await fetch("http://localhost:8000/ask", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ question: input }),
+      })
+      if (!res.ok) throw new Error("Network response was not ok")
+      const data = await res.json()
       const replyMsg = {
         id: Date.now().toString() + "-bot",
         role: "assistant",
-        content: "Bot chưa được kết nối!",
+        content: data.answer || "Bot chưa trả lời!",
       }
       setMessages((prev) => [...prev, replyMsg])
+    } catch (error) {
+      const replyMsg = {
+        id: Date.now().toString() + "-bot",
+        role: "assistant",
+        content: "Lỗi kết nối tới server!",
+      }
+      setMessages((prev) => [...prev, replyMsg])
+    } finally {
       setIsLoading(false)
-    }, 600)
+    }
   }
 
   return (
@@ -73,8 +89,8 @@ export default function ModernChat() {
             </AvatarFallback>
           </Avatar>
           <div>
-            <h1 className="text-xl font-semibold text-slate-900 dark:text-slate-100">AI Assistant</h1>
-            <p className="text-sm text-slate-500 dark:text-slate-400">Trợ lý thông minh của bạn</p>
+            <h1 className="text-xl font-semibold text-slate-900 dark:text-slate-100">UET AI</h1>
+            <p className="text-sm text-slate-500 dark:text-slate-400">Trợ lý hỏi đáp về quy chế đào tạo</p>
           </div>
         </div>
 
@@ -85,9 +101,9 @@ export default function ModernChat() {
               {messages.length === 0 && (
                 <div className="text-center py-12">
                   <Bot className="h-12 w-12 mx-auto text-slate-400 mb-4" />
-                  <h3 className="text-lg font-medium text-slate-600 dark:text-slate-300 mb-2">Chào bạn! 👋</h3>
+                  <h3 className="text-lg font-medium text-slate-600 dark:text-slate-300 mb-2">Chào bạn!</h3>
                   <p className="text-slate-500 dark:text-slate-400">
-                    Tôi là trợ lý AI của bạn. Hãy bắt đầu cuộc trò chuyện!
+                    Tôi có thể giúp gì cho bạn
                   </p>
                 </div>
               )}
@@ -160,7 +176,7 @@ export default function ModernChat() {
             <Input
               value={input}
               onChange={handleInputChange}
-              placeholder="Nhập tin nhắn của bạn..."
+              placeholder="Nhập câu hỏi của bạn"
               className="flex-1 rounded-full border-slate-300 dark:border-slate-600 focus:border-blue-500 dark:focus:border-blue-400 px-4 py-3 text-base"
               disabled={isLoading}
             />
@@ -172,7 +188,7 @@ export default function ModernChat() {
               <Send className="h-5 w-5" />
             </Button>
           </form>
-          <p className="text-xs text-slate-500 dark:text-slate-400 mt-2 text-center">Nhấn Enter để gửi tin nhắn</p>
+          <p className="text-xs text-slate-500 dark:text-slate-400 mt-2 text-center">Nhấn Enter để gửi</p>
         </div>
       </div>
     </div>
