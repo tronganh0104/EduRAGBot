@@ -1,0 +1,12 @@
+model/
+
+__pycache__/
+*.pyc
+
+.vscode/
+
+data/Raw/
+data/*.pdf
+
+venv/
+.env
