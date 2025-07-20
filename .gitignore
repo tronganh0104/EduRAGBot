@@ -5,8 +5,10 @@ __pycache__/
 
 .vscode/
 
-data/Raw/
+data/Processed/
 data/*.pdf
 
 venv/
 .env
+
+chunking.ipynb
