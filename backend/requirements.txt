@@ -6,3 +6,8 @@ torch
 pydantic
 sentence-transformers 
 faiss-cpu
+ctransformers
+langchain
+langchain-community
+pypdf
+openai
