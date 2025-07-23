@@ -11,3 +11,7 @@ langchain
 langchain-community
 pypdf
 openai
+numpy
+langchain-huggingface
+langchain-cohere
+ipywidgets
