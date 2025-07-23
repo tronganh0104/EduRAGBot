@@ -11,7 +11,7 @@ def generate_answer(question, context=""):
     Câu hỏi: {question}
     Trả lời: """
     print("\n--- PROMPT (input to model) ---\n" + prompt)
-    inputs = tokenizer(prompt, return_tensors="pt", max_length=1024, truncation=True).to("cpu")
+    inputs = tokenizer(prompt, return_tensors="pt", truncation=True).to("cpu")
 
     outputs = model.generate(
         **inputs,
