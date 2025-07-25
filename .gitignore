@@ -12,3 +12,5 @@ venv/
 .env
 
 chunking.ipynb
+test.ipynb
+data/index

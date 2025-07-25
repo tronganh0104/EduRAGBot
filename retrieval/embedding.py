@@ -7,4 +7,4 @@ def load_embedding():
 def embed_documents(model, docs):
     texts = [d["content"] for d in docs if d["content"].strip() != ""]
     embeddings = model.encode(texts, convert_to_tensor=False)
-    return np.array(embeddings)  # đảm bảo trả về numpy array 2D
+    return np.array(embeddings)

@@ -4,7 +4,7 @@ import pickle
 
 def save_faiss_index(vectors, docs, index_path="index.faiss", doc_path="docs.pkl"):
     dim = vectors.shape[1]
-    index = faiss.IndexFlatL2(dim)
+    index = faiss.IndexFlatL2(dim) # dùng k/c oclit để tìm lân cận
     index.add(vectors)
     faiss.write_index(index, index_path)
 
