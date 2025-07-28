@@ -18,6 +18,7 @@ app.add_middleware(
 class QuestionRequest(BaseModel):
     question: str
     context: str = ""
+    model: str = ""
 
 class AnswerResponse(BaseModel):
     answer: str
@@ -33,7 +34,7 @@ async def ask(request: QuestionRequest):
         context += f"Chunk {i+1}: {doc.page_content}\n\n"
         print(f"Chunk {i+1}: {doc.page_content}")
     
-    answer = generate_answer(request.question, context)
+    answer = generate_answer(request.question, context, model_name=request.model)
     return {"answer": answer}
 
 
