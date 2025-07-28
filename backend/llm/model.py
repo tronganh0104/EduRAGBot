@@ -2,7 +2,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 model_name = "Qwen/Qwen3-0.6B"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name, device_map="cpu")
+model = AutoModelForCausalLM.from_pretrained(model_name, device_map='cpu')
 
 def generate_answer(question, context=""):
     prompt = f"""Bạn là trợ lý AI trả lời câu hỏi về quy chế đào tạo của trường Đại học Công nghệ, Đại học Quốc gia Hà Nội. Dựa trên ngữ cảnh và câu hỏi dưới đây hãy trả lời câu hỏi.
@@ -42,4 +42,7 @@ def generate_answer(question, context=""):
     else:
         print("\n--- NO QUESTIONS FOUND IN ANSWER ---")
     return answer
+
+
+
 
