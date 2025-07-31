@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 CONFIG = {
@@ -5,6 +6,7 @@ CONFIG = {
     "docs_path": Path("data/process/docs.pkl"),
     "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
     "reranker_model": "BAAI/bge-reranker-base",
-    "retriever_k": 5,
-    "reranker_top_n": 1
+    "default_dense_k": 10,
+    "default_bm25_k": 10,
+    "default_top_n": 3
 }
