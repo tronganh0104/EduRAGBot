@@ -15,3 +15,4 @@ numpy
 langchain-huggingface
 langchain-cohere
 ipywidgets
+functools

@@ -8,6 +8,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Badge } from "@/components/ui/badge"
 import { Send, Bot, User, Cpu } from "lucide-react"
+import { BACKEND_URL } from "./config"
 
 const AI_MODELS = [
   {
@@ -18,8 +19,8 @@ const AI_MODELS = [
     color: "bg-green-500",
   },
   {
-    id: "Qwen3 1.7B pretrain",
-    name: "Qwen3 1.7B pretrain",
+    id: "Qwen3 1.7B",
+    name: "Qwen3 1.7B",
     description: "",
     provider: "",
     color: "bg-blue-500",
@@ -69,10 +70,10 @@ export default function ModernChat() {
     setIsLoading(true)
 
     try {
-      const res = await fetch("/api/chat", {
+      const res = await fetch(`${BACKEND_URL}/ask`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question: input, model: selectedModel }),
+        body: JSON.stringify({ question: input, model: selectedModel, context: "" }),
       })
       if (!res.ok) throw new Error("Network error")
       const data = await res.json()
