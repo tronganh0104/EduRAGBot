@@ -1,0 +1,161 @@
+question,label
+học phần điều kiện là gì?,Definition
+cho tôi biết định nghĩa của tín chỉ,Definition
+sinh viên có được phép nghỉ học tạm thời không?,Yes/No
+có phải sinh viên năm cuối mới được làm khóa luận không?,Yes/No
+liệt kê các mức học bổng của trường,List
+những trường hợp nào thì sinh viên bị cảnh cáo học vụ?,List
+điểm F là bao nhiêu điểm?,Factoid
+khi nào thì hết hạn đăng ký tín chỉ?,Factoid
+làm thế nào để đăng ký học lại?,Inference
+phân biệt giữa chương trình đào tạo chuẩn và chất lượng cao,Inference
+hãy mô tả quy trình xét tốt nghiệp,Definition
+tôi có thể đăng ký bảo lưu kết quả học tập không?,Yes/No
+các điều kiện để xét học bổng chính sách,List
+tín chỉ tối thiểu cho một học kỳ là bao nhiêu?,Factoid
+làm sao để yêu cầu đổi môn học?,Inference
+hãy cho ví dụ về trường hợp miễn học phần,List
+khả năng đăng ký song bằng có được không?,Yes/No
+tìm hiểu định nghĩa học phí,Definition
+bao nhiêu tín chỉ được miễn giảm học phí?,Factoid
+quy trình khiếu nại điểm thi,Inference
+liệt kê các hình thức đánh giá học phần,List
+sinh viên nghỉ học bù có được không?,Yes/No
+điểm tích lũy tối thiểu để xét tốt nghiệp,Factoid
+mô tả quy trình xác nhận tốt nghiệp,Definition
+làm thế nào để xin cấp lại bằng tốt nghiệp?,Inference
+"Giải thích khái niệm 'tín chỉ học tập'.",Definition
+"Chương trình đào tạo chuẩn được định nghĩa như thế nào?",Definition
+"Học phần tự chọn có điều kiện nghĩa là gì?",Definition
+"Thế nào là một học kỳ chính?",Definition
+"Mô tả về học phần thay thế tốt nghiệp.",Definition
+"Hãy cho biết về thang điểm chữ.",Definition
+"Xử lý học vụ là gì?",Definition
+"Vui lòng giải thích về việc học cùng lúc hai chương trình.",Definition
+"Học vượt là sao?",Definition
+"Thế nào được coi là đạo văn trong khóa luận?",Definition
+"Cho tôi biết định nghĩa của chương trình đào tạo chất lượng cao.",Definition
+"Học phần tiên quyết có ý nghĩa gì?",Definition
+"Mô tả quy trình đăng ký học phần.",Definition
+"Điểm trung bình chung tích lũy được hiểu là gì?",Definition
+"Giải thích về các học phần bắt buộc.",Definition
+"Sinh viên có phải đóng học phí cho các môn học lại không?",Yes/No
+"Có được đăng ký ít hơn số tín chỉ tối thiểu không?",Yes/No
+"Sinh viên có thể rút bớt học phần đã đăng ký không?",Yes/No
+"Có phải tất cả các ngành đều có cùng mức học phí không?",Yes/No
+"Điểm F có được tính vào điểm trung bình không?",Yes/No
+"Có thể bảo lưu kết quả học tập giữa chừng một học kỳ không?",Yes/No
+"Bằng tốt nghiệp loại xuất sắc có yêu cầu gì về điểm rèn luyện không?",Yes/No
+"Có cần hoàn thành giáo dục thể chất để được tốt nghiệp không?",Yes/No
+"Sinh viên có được phép thi lại để cải thiện điểm A không?",Yes/No
+"Nộp đơn phúc khảo có mất phí không?",Yes/No
+"Có phải sinh viên nào cũng được đăng ký học song bằng không?",Yes/No
+"Sinh viên có được sử dụng tài liệu trong kỳ thi cuối kỳ không?",Yes/No
+"Thời gian nghỉ học tạm thời có tính vào thời gian đào tạo chính thức không?",Yes/No
+"Có được chuyển ngành sau khi đã học xong năm thứ hai không?",Yes/No
+"Liệt kê các điều kiện để sinh viên được làm khóa luận tốt nghiệp.",List
+"Những trường hợp nào sinh viên sẽ bị buộc thôi học?",List
+"Kể ra các loại học bổng mà sinh viên có thể nhận được.",List
+"Danh sách các giấy tờ cần thiết để làm thủ tục nhập học là gì?",List
+"Các hình thức xử lý vi phạm quy chế thi gồm những gì?",List
+"Cho tôi danh sách các học phần tự chọn của ngành Khoa học máy tính.",List
+"Những môn nào thuộc khối kiến thức giáo dục đại cương?",List
+"Các cấp độ cảnh cáo học vụ gồm những gì?",List
+"Hãy liệt kê các điều kiện để được xét tốt nghiệp.",List
+"Những quyền lợi chính của sinh viên là gì?",List
+"Các khoản phí bắt buộc ngoài học phí là những khoản nào?",List
+"Những ai được miễn học phần ngoại ngữ?",List
+"Kể tên các chương trình đào tạo đặc biệt của trường.",List
+"Cần bao nhiêu tín chỉ cho các học phần tự chọn?",Factoid
+"Thời gian tối đa để hoàn thành chương trình đào tạo là mấy năm?",Factoid
+"Một năm học có bao nhiêu học kỳ phụ?",Factoid
+"Điểm trung bình cần thiết để đạt học bổng loại Khá là bao nhiêu?",Factoid
+"Hạn chót để đóng học phí cho học kỳ 1 là khi nào?",Factoid
+"Điểm B+ tương ứng với thang điểm 4 là mấy?",Factoid
+"Sinh viên cần liên hệ phòng ban nào để xin bảng điểm?",Factoid
+"Có bao nhiêu cấp độ xử lý học vụ?",Factoid
+"Mỗi lớp học phần có tối đa bao nhiêu sinh viên?",Factoid
+"Thời gian cho một ca thi viết là bao lâu?",Factoid
+"Thủ tục xin cấp lại thẻ sinh viên được thực hiện ở đâu?",Factoid
+"Điểm rèn luyện loại Xuất sắc cần bao nhiêu điểm?",Factoid
+"Học phí cho chương trình chất lượng cao là bao nhiêu một năm?",Factoid
+"So sánh giữa việc học cải thiện điểm và học lại.",Inference
+"Nếu một sinh viên bị điểm trung bình 1.5 ở hai học kỳ liên tiếp thì sẽ như thế nào?",Inference
+"Điều kiện để chuyển từ học chương trình chuẩn sang học chương trình tài năng là gì?",Inference
+"Làm thế nào để sinh viên có thể đăng ký học vượt tiến độ?",Inference
+"Tại sao việc đăng ký đủ khối lượng học tập tối thiểu lại quan trọng?",Inference
+"Phân biệt giữa học phần thay thế và học phần tương đương.",Inference
+"Nếu bị điểm F môn tiên quyết thì ảnh hưởng thế nào đến các môn sau?",Inference
+"Giải thích quy trình từ lúc nhận đề tài đến lúc bảo vệ khóa luận tốt nghiệp.",Inference
+"Một sinh viên muốn học văn bằng 2 ngành khác thì cần bắt đầu từ đâu và cần điều kiện gì?",Inference
+"Tác động của việc bị cảnh cáo học vụ đến việc xét học bổng như thế nào?",Inference
+"Nếu muốn khiếu nại về điểm thi, sinh viên cần thực hiện các bước như thế nào?",Inference
+"Làm sao để biết một học phần có được mở trong học kỳ hè không?",Inference
+"Một sinh viên năm nhất cần lưu ý những mốc thời gian quan trọng nào trong một học kỳ?",Inference
+"Phân tích ưu và nhược điểm của việc học cùng lúc hai chương trình.",Inference
+"Khái niệm 'giờ tín chỉ' được quy định ra sao?",Definition
+"Thang điểm 4 là gì và cách quy đổi của nó như thế nào?",Definition
+"Mô tả chi tiết về một chương trình đào tạo chuẩn.",Definition
+"Định nghĩa về 'lớp học phần'.",Definition
+"Học phần tự chọn là gì?",Definition
+"Hãy làm rõ về khái niệm 'tích lũy tín chỉ'.",Definition
+"Hệ thống tín chỉ được áp dụng trong trường có ý nghĩa gì?",Definition
+"Mô tả về quy chế thi và kiểm tra.",Definition
+"Cảnh cáo học vụ mức 1 được định nghĩa thế nào?",Definition
+"Giải thích về tiêu chuẩn đầu ra ngoại ngữ.",Definition
+"Thế nào là một 'học kỳ phụ'?",Definition
+"Mô tả về quy trình đăng ký học lại.",Definition
+"Định nghĩa chính xác của 'điểm học phần' là gì?",Definition
+"Hãy giải thích về 'khối lượng học tập đã đăng ký'.",Definition
+"Giảng viên cố vấn học tập có vai trò gì?",Definition
+"Chương trình đào tạo tài năng có khác biệt gì so với chương trình chuẩn không?",Yes/No
+"Sinh viên có được phép tự ý thay đổi lớp học phần đã đăng ký không?",Yes/No
+"Có cần phải hoàn thành tất cả các học phần trong chương trình đào tạo để được tốt nghiệp không?",Yes/No
+"Điểm rèn luyện có ảnh hưởng đến việc xếp loại bằng tốt nghiệp không?",Yes/No
+"Nợ học phí có bị cấm thi không?",Yes/No
+"Có phải sinh viên chỉ được học lại một môn tối đa 2 lần không?",Yes/No
+"Có được đăng ký nhiều hơn số tín chỉ tối đa cho phép trong một học kỳ không?",Yes/No
+"Sinh viên có được phép làm khóa luận tốt nghiệp bằng tiếng Anh không?",Yes/No
+"Có thể nhận bằng tốt nghiệp nếu chưa hoàn thành chứng chỉ giáo dục quốc phòng không?",Yes/No
+"Điểm thi kết thúc học phần chiếm bao nhiêu phần trăm điểm tổng kết môn học?",Yes/No
+"Có phải mọi vi phạm trong phòng thi đều dẫn đến việc bị đình chỉ thi không?",Yes/No
+"Sinh viên có được phép mang laptop vào phòng thi không?",Yes/No
+"Nếu bị mất thẻ sinh viên, có được dự thi không?",Yes/No
+"Có được bảo lưu kết quả các môn đã học nếu chuyển trường không?",Yes/No
+"Liệt kê các nghĩa vụ của sinh viên theo quy chế.",List
+"Những hành vi nào được coi là vi phạm quy chế thi?",List
+"Cho tôi một danh sách các môn tiên quyết của ngành Kỹ thuật máy tính.",List
+"Các trường hợp nào sinh viên được xem xét miễn giảm học phí?",List
+"Kể ra các loại giấy tờ cần nộp để xin nghỉ học tạm thời.",List
+"Những tiêu chí nào được dùng để xét học bổng khuyến khích học tập?",List
+"Các hình thức kiểm tra, đánh giá một học phần bao gồm những gì?",List
+"Hãy liệt kê các quyền lợi của sinh viên khi theo học tại trường.",List
+"Những mốc thời gian quan trọng nào trong một học kỳ mà sinh viên cần chú ý?",List
+"Các phòng ban chức năng mà sinh viên thường xuyên cần làm việc là những phòng nào?",List
+"Kể ra các yêu cầu để được công nhận tốt nghiệp.",List
+"Những môn nào không tính vào điểm trung bình tích lũy?",List
+"Các hoạt động ngoại khóa nào được cộng điểm rèn luyện?",List
+"Điểm trung bình chung học kỳ tối thiểu để không bị cảnh cáo là bao nhiêu?",Factoid
+"Mã sinh viên được cấp khi nào?",Factoid
+"Thời gian phúc khảo bài thi là bao lâu kể từ ngày công bố điểm?",Factoid
+"Để đạt danh hiệu 'Sinh viên 5 tốt' cần những tiêu chí gì?",Factoid
+"Liên hệ ai khi gặp sự cố về đăng ký tín chỉ online?",Factoid
+"Thư viện trường mở cửa đến mấy giờ?",Factoid
+"Mức học bổng loại Xuất sắc là bao nhiêu tiền?",Factoid
+"Sinh viên cần đạt bao nhiêu tín chỉ để hoàn thành chương trình?",Factoid
+"Hệ số của các điểm thành phần (chuyên cần, giữa kỳ, cuối kỳ) là bao nhiêu?",Factoid
+"Ai là người phê duyệt đơn xin nghỉ học tạm thời của sinh viên?",Factoid
+"Thời gian tối thiểu để hoàn thành một chương trình đào tạo là mấy năm?",Factoid
+"Phân biệt giữa 'đình chỉ học tập' và 'buộc thôi học'.",Inference
+"Nếu một sinh viên muốn học thêm một ngành phụ thì cần tuân theo quy trình nào?",Inference
+"Giải thích cách tính điểm trung bình chung tích lũy qua các học kỳ.",Inference
+"Làm thế nào để xây dựng một lộ trình học tập hiệu quả để tốt nghiệp sớm?",Inference
+"Nếu sinh viên không đồng ý với kết quả xử lý kỷ luật, họ có thể làm gì?",Inference
+"Tại sao một số học phần lại yêu cầu học phần tiên quyết?",Inference
+"Phân tích các yếu tố ảnh hưởng đến việc xếp hạng tín nhiệm của sinh viên.",Inference
+"Nếu một học phần có nhiều lựa chọn về giảng viên, làm thế nào để chọn được lớp phù hợp?",Inference
+"Giải thích mối quan hệ giữa kết quả học tập và cơ hội nhận học bổng du học.",Inference
+"Làm thế nào để cân bằng giữa việc học hai chương trình cùng lúc và các hoạt động ngoại khóa?",Inference
+"Một sinh viên bị mất gốc kiến thức từ các môn cơ sở ngành nên làm gì ở các học kỳ tiếp theo?",Inference
+"Phân tích quy trình xử lý khi một sinh viên bị phát hiện đạo văn trong bài tập lớn.",Inference
+"Nếu muốn đề xuất mở một lớp học phần mới, sinh viên cần liên hệ ai và thực hiện thủ tục gì?",Inference
