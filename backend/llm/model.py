@@ -19,34 +19,16 @@ def get_model_and_tokenizer(model_name):
         raise ValueError(f"Mô hình '{model_name}' không được hỗ trợ. Các mô hình hợp lệ: {list(MODEL_ID_MAP.keys())}")
     
     tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
-    base_model = AutoModelForCausalLM.from_pretrained(
+    model = AutoModelForCausalLM.from_pretrained(
         model_id,
         device_map="auto",
         torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
         trust_remote_code=True
     )
     
-    # Nếu là mô hình fine-tune với LoRA, tải adapter
-    if model_name == "Qwen3 4B finetune":
-        lora_adapter_path = model_id  # Đường dẫn đến adapter LoRA
-        model = PeftModel.from_pretrained(base_model, lora_adapter_path, is_trainable=False)
-    else:
-        model = base_model
-    
     return model, tokenizer
 
 def generate_answer(question, context="", model_name="Qwen3 4B finetune"):
-    """
-    Sinh câu trả lời dựa trên câu hỏi và ngữ cảnh sử dụng mô hình fine-tune.
-    
-    Args:
-        question (str): Câu hỏi cần trả lời.
-        context (str): Ngữ cảnh từ các tài liệu truy xuất.
-        model_name (str): Tên mô hình trong MODEL_ID_MAP.
-    
-    Returns:
-        str: Câu trả lời đã được xử lý.
-    """
     model, tokenizer = get_model_and_tokenizer(model_name)
     
     prompt = f"""Bạn là trợ lý AI trả lời câu hỏi về quy chế đào tạo của trường Đại học Công nghệ, Đại học Quốc gia Hà Nội. Dựa trên ngữ cảnh dưới đây, trả lời câu hỏi một cách ngắn gọn, chính xác và đầy đủ. Nếu ngữ cảnh không cung cấp đủ thông tin, hãy trả lời rằng thông tin không có sẵn và không suy đoán.
