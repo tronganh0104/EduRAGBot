@@ -42,7 +42,3 @@ def generate_answer(question, context=""):
     else:
         print("\n--- NO QUESTIONS FOUND IN ANSWER ---")
     return answer
-
-
-
-
