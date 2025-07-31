@@ -1,37 +1,33 @@
-import re
-import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from peft import PeftModel
 from functools import lru_cache
+from peft import PeftModel
+import os
+import torch
+import re
 
-# Cấu hình các mô hình
 MODEL_ID_MAP = {
-    "Qwen3 4B pretrain": "F:/Workspace/EduRAGBot/backend/models/qwen3-4b-legal-pretrain",  # Thay bằng đường dẫn cục bộ
-    "Qwen3 1.7B": "Qwen/Qwen2-1.5B-Instruct",  # Thay bằng mô hình hợp lệ trên Hugging Face
-    "Qwen3 4B finetune": "F:/Workspace/EduRAGBot/backend/models/qwen3-4b-finetune-ver3"  # Thay bằng đường dẫn cục bộ
+    "Qwen3 4B pretrain": "/kaggle/input/qwen3-4b-legal-pretrain/transformers/default/1/qwen3-4b-legal-pretain",
+    "Qwen3 1.7B": "/kaggle/input/qwen-3/transformers/1.7b/1",
+    "Qwen3 4B finetune": "/kaggle/input/qwen3-4b-finetune-ver3/transformers/default/1/kaggle/working/qwen_vietnamese_qa",
 }
 
 @lru_cache(maxsize=3)
 def get_model_and_tokenizer(model_name):
-    """Tải mô hình và tokenizer từ đường dẫn hoặc Hugging Face."""
     model_id = MODEL_ID_MAP.get(model_name, None)
     if model_id is None:
         raise ValueError(f"Mô hình '{model_name}' không được hỗ trợ. Các mô hình hợp lệ: {list(MODEL_ID_MAP.keys())}")
-    
-    tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
     model = AutoModelForCausalLM.from_pretrained(
         model_id,
         device_map="auto",
-        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
-        trust_remote_code=True
+        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32
     )
-    
     return model, tokenizer
 
-def generate_answer(question, context="", model_name="Qwen3 4B finetune"):
+def generate_answer(question, context="", model_name=None):
     model, tokenizer = get_model_and_tokenizer(model_name)
     
-    prompt = f"""Bạn là trợ lý AI trả lời câu hỏi về quy chế đào tạo của trường Đại học Công nghệ, Đại học Quốc gia Hà Nội. Dựa trên ngữ cảnh dưới đây, trả lời câu hỏi một cách ngắn gọn, chính xác và đầy đủ. Nếu ngữ cảnh không cung cấp đủ thông tin, hãy trả lời rằng thông tin không có sẵn và không suy đoán.
+    prompt = f"""Bạn là trợ lý AI trả lời câu hỏi về quy chế đào tạo của trường Đại học Công nghệ, Đại học Quốc gia Hà Nội. Dựa trên ngữ cảnh dưới đây, trả lời câu hỏi một cách ngắn gọn và chính xác. Nếu ngữ cảnh không cung cấp đủ thông tin, hãy trả lời rằng thông tin không có sẵn và không suy đoán. Không tự sinh thêm câu hỏi, chỉ sinh câu trả lời và chỉ sinh một câu trả lời duy nhất.
 
 Ngữ cảnh: {context}
 
@@ -43,24 +39,22 @@ Trả lời: """
     inputs = tokenizer(
         prompt,
         return_tensors="pt",
-        max_length=1024,
         truncation=True
     ).to(model.device)
 
     outputs = model.generate(
         **inputs,
-        max_new_tokens=300,
+        max_new_tokens=100,
         num_return_sequences=1,
         pad_token_id=tokenizer.eos_token_id,
         no_repeat_ngram_size=4,
-        temperature=0.3,  # Giảm để tăng độ chính xác
-        top_p=0.7         # Giảm để giảm ngẫu nhiên
+        temperature=0.3,  
+        top_p=0.5        
     )
 
     answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
     print("\n--- RAW OUTPUT (from model) ---\n" + answer)
-    
-    # Post-process câu trả lời
+
     if "Trả lời:" in answer:
         answer = answer.split("Trả lời:", 1)[-1].strip()
     else:
@@ -71,9 +65,13 @@ Trả lời: """
     answer = re.sub(r'[ \t]+', ' ', answer).strip()
     answer = re.sub(r'\n\s*\n+', '\n', answer).strip()
 
+    sentences = re.split(r'(?<=[.!?])\s+', answer.strip())
+    if sentences and not re.search(r'[.!?]$', sentences[-1]):
+        sentences = sentences[:-1]  # Loại bỏ câu cuối không hoàn chỉnh
+    answer = ' '.join(sentences).strip()
+    
     print("\n--- FINAL ANSWER (postprocessed) ---\n" + answer)
 
-    # Kiểm tra câu hỏi trong câu trả lời
     questions_in_answer = re.findall(r"[^\n.?!]*\?", answer)
     if questions_in_answer:
         print("\n--- QUESTIONS FOUND IN ANSWER ---")
