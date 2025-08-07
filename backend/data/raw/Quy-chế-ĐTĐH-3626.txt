@@ -53,7 +53,7 @@ Nơi nhận:
 - Phòng TT&QT TH (đăng website);
 - Lưu: VT, BĐT, Th50.
 
-CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do —- Hạnh phúc
 
 (Ban Kbm theo Quyết định số 2636 /QD-ĐHOGHN
@@ -64,7 +64,7 @@ NHỮNG QUY ĐỊNH CHUNG
 
 Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng
 
-[. Quy chê này quy định về đào tạo đại học theo hình thức chính quy và hình
+Quy chê này quy định về đào tạo đại học theo hình thức chính quy và hình
 thức vừa làm vừa học tại Đại học Quốc gia Hà Nội, bao gồm: chương trình đào tạo
 và thời gian học tập; tô chức và quản lý đảo tạo; nghiên cứu khoa học của sinh viên;
 quyên lợi và nghĩa vụ của giảng viên, cô vẫn học tập, sinh viên; kiểm tra, thi và
@@ -94,9 +94,6 @@ phục vụ đào tạo.
 - Quản lý toàn diện công tác tô chức và quản lý đảo tạo của các trường/khoa
 
 trực thuộc.
-
-So)
-
 b) Đơn vị đào tạo
 
 - Tô chức và quản lý đảo tạo các ngành học, học phần đã được Đại học Quốc
@@ -144,14 +141,14 @@ thức quản lý phải phù hợp và đáp ứng chuẩn đầu ra của chư
 
 cầu hiện tại và tương lai của xã hội.
 
-3. Ưu tiên đầu tư điều kiện đảm bảo chất lượng giáo dục.
+3. Ưu tiên đầu tư điều kiện đảm bảo chất lượng giáo dục.
 
 4. Gắn đào tạo với nghiên cứu khoa học, hoạt động thực tiễn.
 
 5. Kiểm định chất lượng giáo dục là yêu cầu bắt buộc trong đào tạo.
 Điều 4. Hình thức dạy học, tín chỉ, giờ tín chỉ
 
-[. Hình thức dạy học
+Hình thức dạy học
 
 a) Lý thuyết: sinh viên học tập trên lớp qua bài giảng trực tiếp của giảng viên
 tại lớp học hoặc qua các lớp học trực tuyên;
@@ -187,7 +184,7 @@ một học kỳ (trừ học phân thực tập thực tế); mỗi học phầ
 trưởng đơn vị đào tạo ban hành dựa trên nguyên tắc đánh mã của Đại học Quốc gia
 Hà Nội.
 
-2. Các loại học phần
+2. Các loại học phần
 a) Học phần bắt buộc: sinh viên bắt buộc phải tích lũy;
 
 b) Học phần tự chọn có điều kiện: sinh viên được tự chọn theo hướng dẫn
@@ -231,7 +228,7 @@ quyết, ngôn ngữ giảng dạy);
 đ) Thông tin về hình thức tổ chức, lịch trình dạy học;
 
 e) Học liệu;
-ø) Các quy định về kiểm tra đánh giá;
+Các quy định về kiểm tra đánh giá;
 
 h) Các thông tin khác (nếu có) theo quy định của đơn vị đào tạo quản lý học
 phần hoặc của Đại học Quốc gia Hà Nội.
@@ -271,13 +268,13 @@ d) Chương trình đào tạo ngành chính - ngành phụ;
 e) Chương trình đào tạo liên kết với cơ sở giáo dục nước ngoài do Đại học
 Quốc gia Hà Nội cấp bằng:
 
-gø) Chương trình đào tạo liên kết với cơ sở giáo dục nước ngoài do Đại học
+g) Chương trình đào tạo liên kết với cơ sở giáo dục nước ngoài do Đại học
 Quốc gia Hà Nội và cơ sở giáo dục nước ngoài (đối tác nước ngoài) cùng cấp bằng:
 
 h) Chương trình đào tạo liên kết với cơ sở giáo dục nước ngoài do đối tác nước
 
 ngoài câp băng.
-Điều 7. Hình thức đào tạo
+Điều 7. Hình thức đào tạo
 
 1. Đào tạo chính quy được tổ chức đào tạo tập trung liên tục trong toàn khóa
 học và áp dụng cho các chương trình đào tạo quy định tại điểm a, b, c, d, đ, e, 9,
@@ -317,17 +314,15 @@ tại đơn vị đào tạo quản lý ngành học mà sinh viên theo học.
 
 - Học phí được tính theo công thức:
 
-k
-MÍ = aồ.h,n; =1*4)
+M = a \sum_{i=1}^{k} h_j n_i \quad (j = 1 \div 4)
 
-/=l
-trong đó:
+trong đó:
 M: Sô học phí phải nộp
 a: Định mức học phí cho một tín chỉ theo hình thức đào tạo và chương
 trình đào tạo
-hị: Hệ sô học phí của học phân thứ ¡ mà sinh viên học lân đầu (hi), học
-lại (ha). học cải thiện điểm (ha), học tự chọn tự do (ha)
-nị: Sô tín chỉ của học phân thứ ¡ï
+h_j: Hệ sô học phí của học phân thứ j mà sinh viên học lân đầu (h_1), học
+lại (h_2). học cải thiện điểm (h_3), học tự chọn tự do (h_4)
+n_i: Sô tín chỉ của học phân thứ i
 k: Tông số học phần
 - Thủ trưởng đơn vị đào tạo xây dựng định mức học phí cho một tín chỉ và
 hệ sô học phí của từng học phân cho các ngành học, phủ hợp với các quy định
@@ -354,7 +349,7 @@ c) Đơn vị được giao quản lý cơ sở vật chât được sử dụng
 
 quy định hiện hành của Đại học Quốc gia Hà Nội.
 
-Điêu 9. Tuyên sinh
+Điêu 9. Tuyên sinh
 
 1. Chỉ tiêu tuyên sinh
 
@@ -396,7 +391,7 @@ yêu câu chương trình dào tạo đã được công nhận đạt chuân ch
 
 khôi lượng chương trình dào tạo;
 
-d) Đã ban hành quy định về liên kết và đã thâm định các điều kiện bảo đảm
+d) Đã ban hành quy định về liên kết và đã thâm định các điều kiện bảo đảm
 
 chất lượng của đơn vị phối hợp đào tạo.
 3. Các yêu cầu tối thiểu của đơn vị phối hợp đào tạo
@@ -438,7 +433,6 @@ suốt quá trình thực hiện hoạt động đào tạo, cho đến khi sinh
 
 tốt nghiệp trong trường hợp dừng hợp tác.
 
-10
 
 Chương H
 CHƯƠNG TRÌNH ĐÀO TẠO
@@ -481,7 +475,7 @@ Quốc gia Hà Nội quyết định.
 Điều 13. Chuẩn đầu ra của chương trình đào tạo
 
 1. Chuẩn đầu ra là yêu cầu bắt buộc khi xây dựng chương trình đào tạo.
-Ngoài ra, đôi với các chương trình đảo tạo tài năng, chất lượng cao, chuẩn đầu ra
+Ngoài ra, đôi với các chương trình đảo tạo tài năng, chất lượng cao, chuẩn đầu ra
 phải đáp ứng yêu câu: Có kiên thức cơ bản vững vàng, có khả năng áp dụng kiến
 thức chuyên sâu và kiên thức thực tê trong lĩnh vực đào tạo để phân tích, đánh giá,
 sáng tạo trong nghiên cứu và giải quyết các công việc phức tạp, có khả năng hội
@@ -525,7 +519,7 @@ Chương trình đào tạo được thiết kê hướng tới đạt chuẩn �
 
 theo quy trình 4 bước:
 
-a) Hình thành mục tiêu, điêu tra nhu câu và xây dựng chuẩn đầu ra;
+a) Hình thành mục tiêu, điêu tra nhu câu và xây dựng chuẩn đầu ra;
 
 b) Thiệt kê chương trình đào tạo đáp ứng chuẩn đâu ra;
 
@@ -563,7 +557,7 @@ quản lý đào tạo được thực hiện liên thông giữa các khoa tron
 tạo hoặc giữa các đơn vị đảo tạo trong Đại học Quốc gia Hà Nội.
 
 đ) Chương trình đào tạo song ngành
-Chương trình đào tạo song ngành gồm hai phân: Chương trình đào tạo ngành
+Chương trình đào tạo song ngành gồm hai phân: Chương trình đào tạo ngành
 thứ nhất có khối lượng kiến thức tối thiểu là 120 tín chỉ, ngành thứ hai có khối
 lượng kiến thức từ 30 tín chỉ trở lên (những học phần giống nhau, tương đương
 giữa hai chương trình đào tạo chỉ được tính khối lượng kiến thức một lần). Việc tổ
@@ -607,7 +601,7 @@ c) Xây dựng, nghiệm thu đề cương học phân của các học phân th
 
 quản lý.
 
-Chương HII
+Chương HII
 TỎ CHỨC ĐÀO TẠO
 
 Điều 16. Học kỳ
@@ -650,56 +644,15 @@ chọn tự do, giáo dục thê chất, giáo dục quốc phòng - an ninh và
 
 sinh viên được xêp năm đảo tạo như sau:
 
-15
+Năm đào tạo | Chương trình chuẩn       | CT chất lượng cao        | CT tài năng
+------------|--------------------------|--------------------------|-------------------------
+Năm 1       | Dưới 35 tín chỉ          | Dưới 40 tín chỉ          | Dưới 45 tín chỉ
+Năm 2       | 35 - 70 tín chỉ          | 40 - 80 tín chỉ          | 45 - 90 tín chỉ
+Năm 3       | 71 - 105 tín chỉ         | 81 - 115 tín chỉ         | 91 - 130 tín chỉ
+Năm 4       | 106 - 140 tín chỉ        | 116 - 155 tín chỉ        | 131 - 170 tín chỉ
+Năm 5       | 141 - 175 tín chỉ        | -                        | -
+Năm 6       | 176 - 225 tín chỉ        | -                        | -
 
-Năm đào tạo
-
-Ch ương trình
-
-đào tạo chuân
-
-Chương trình đào
-tạo chât lượng cao
-
-Chương trình
-
-đào tạo tài năng
-
-Năm thứ nhất
-
-Dưới 35 tín chỉ
-
-Dưới 40 tín chỉ
-
-Dưới 45 tín chỉ
-
-Năm thứ hai
-
-Từ 3Š - 70 tín chỉ
-
-Từ 40 — 80 tín chỉ
-
-Từ 45 — 90 tín chỉ
-
-Năm thứ ba
-
-Từ 71 - 105 tín chỉ
-
-Năm thứ tư
-
-Từ 81 — 115 tín chỉ
-
-Từ 91 — 130 tín chỉ
-
-Từ 106 — 140 tín chỉ
-
-Từ I16 - IŠŠ tín chỉ
-
-Từ 131 —170 tín chỉ
-
-Năm thứ năm | Từ I4I —- 175 tín chỉ = -
-
-Năm thứ sáu | Từ 176 —225 tín chỉ - =
 
 Điều 18. Kế hoạch đào tạo
 
@@ -734,7 +687,7 @@ của năm học.
 
 5, Chậm nhất 01 tháng trước khi học kỳ mới bắt đầu, đơn vị đào tạo thông báo:
 
-16
+
 
 a) Thời khóa biêu của lớp học phân dự kiên giảng dạy trong học kỳ, gôm các
 thông tin: tên học phân, sô tín chỉ, tên lớp học phân, tiết học, phòng học/địa điểm,
@@ -781,7 +734,7 @@ quyết định cho sinh viên được bảo lưu hoặc phải học bổ sung
 
 tương đương.
 
-2. Lớp học phần
+2. Lớp học phần
 
 a) Lớp học phần được tổ chức cho sinh viên học cùng một học phần trong
 cùng một học kỳ. Đơn vị đào tạo phụ trách học phần có trách nhiệm thành lập và
@@ -823,7 +776,7 @@ phân giáo dục thể chát, giáo dục quốc phòng - an ninh, kỹ năng b
 2/3 khối lượng trung bình một học kỳ theo kế hoạch học tập chuẩn; khối lượng tối
 đa không vượt quá 3/2 khối lượng trung bình một học kỳ theo kế hoạch học tập
 chuẩn (không tính học kỳ cuối khóa).
-Trường hợp sinh viên có nguyện vọng đăng ký học ít hơn sô tín chỉ tôi thiêu
+Trường hợp sinh viên có nguyện vọng đăng ký học ít hơn sô tín chỉ tôi thiêu
 
 trong một học kỳ phai được sự đồng ý của thủ trưởng đơn vị đào tạo.
 Đối với học kỳ phụ: Thủ trưởng đơn vị đào tạo quy định.
@@ -864,7 +817,7 @@ e) Trong 2 tuần đầu của học kỳ chính hoặc trong I tuần đầu c�
 sinh viên được phép đăng ký những học phần muốn học thêm hoặc đăng ký đôi
 
 sang lớp học phần khác.
-4. Đăng ký học lại
+4. Đăng ký học lại
 
 a) Đối với các học phần bắt buộc, nếu bị điểm E, sinh viên phải đăng ký học
 lại học phần đó;
@@ -910,7 +863,7 @@ Nội, Chủ nhiệm khoa thuộc trường đại học thành viên phân côn
 dẫn khóa luận, đồ án tốt nghiệp theo đề nghị của Chủ nhiệm bộ môn. Đề tài khóa
 luận, đồ án tốt nghiệp do giảng viên hướng dẫn đẻ nghị và được thông qua ở cấp
 bộ môn.
-e) Sinh viên không đủ điều kiện làm khóa luận hoặc đồ án tốt nghiệp sẽ
+e) Sinh viên không đủ điều kiện làm khóa luận hoặc đồ án tốt nghiệp sẽ
 đăng ký học các học phần thay thế do thủ trưởng đơn vị đào tạo quy định. Các học
 phần thay thế cho khóa luận, đỗ án tốt nghiệp được tổ chức đào tạo, kiểm tra đánh
 giá như các học phần khác.
@@ -952,7 +905,7 @@ chuyên dỗi tín chỉ. Khối lượng tối đa được công nhận, chuy�
 lẫn nhau số lượng tín chỉ mà sinh viên tích lũy tại cơ sở đào tạo ngoài Đại học
 Quốc gia Hà Nội không vượt quá 25% tổng khối lượng của chương trình đào tạo.
 
-Điều 23. Rút bớt học phần đã đăng ký
+Điều 23. Rút bớt học phần đã đăng ký
 1. Việc rút bớt học phân áp dụng cho các trường hợp:
 a) Theo nhu cầu và khả năng lựa chọn của sinh viên;
 
@@ -995,8 +948,7 @@ phân, nội dung đó đạt từ 5,0 điểm trở lên theo thang điểm 10.
 
 c) Đối tượng được miễn học các nội dung thực hành kỹ năng quân sự
 
-3)
-)
+3)
 
 - Sinh viên là tu sỹ thuộc các tôn giáo;
 
@@ -1042,7 +994,7 @@ c) Đối tượng được tạm hoãn học
 Thủ trưởng đơn vị đào tạo xem xét quyết định cho các đối tượng được tạm
 hoãn học. Hết thời gian tạm hoãn, sinh viên tiếp tục học những nội dung còn thiếu
 trong học phần theo quy định.
-Điều 25. Đào tạo văn bằng thứ hai
+Điều 25. Đào tạo văn bằng thứ hai
 
 1. Đảo tạo văn bằng thứ hai theo hình thức vừa làm vừa học dành cho người
 đã có băng đại học.
@@ -1086,7 +1038,7 @@ ký học chương trình dào tạo thứ hai đạt từ 2,0 trở lên và đ
 
 tuyển của chương trình thứ hai trong năm tuyên sinh;
 
-đ) Sinh viên có đơn xin học thêm chương trình đào tạo thứ hai và tra học phí
+đ) Sinh viên có đơn xin học thêm chương trình đào tạo thứ hai và tra học phí
 
 theo quy định của đơn vị đào tạo.
 
@@ -1124,11 +1076,8 @@ chương trình đào tạo thứ hai.
 7. Sinh viên chỉ được xét tốt nghiệp chương trình thứ hai nêu được công
 nhận tốt nghiệp chương trình đảo tạo thứ nhất, không vượt quá thời gian đảo tạo
 tối đa và đã đăng kí muộn nhất 02 năm trước thời điểm xét tốt nghiệp chương trình
-
 thứ hai.
 
-In)
-tủ
 
 Điều 27. Tuyển chọn và tổ chức giảng dạy, chuyền đổi sinh viên giữa các
 chương trình đào tạo tài năng, chất lượng cao
@@ -1176,7 +1125,7 @@ hiện đại; tăng cường thuyết trình kèm theo đối thoại; thảo l
 sử dụng công nghệ, trang thiết bị hiện đại nhằm phát huy tính chủ động khám phá
 
 tri thức cho người học ở các bậc nhận thức cao;
-c) Tăng cường tự học, học theo nhóm, giảng viên giao bài tập, bài tiêu luận
+c) Tăng cường tự học, học theo nhóm, giảng viên giao bài tập, bài tiêu luận
 học phân, bài thuyết trình cho sinh viên hay nhóm sinh viên chuân bị và chia nhóm
 thảo luận, đánh giá; Giảng viên giải đáp, phân tích, tông kết;
 
@@ -1193,7 +1142,7 @@ học phần mà sinh viên dã đạt giải quốc gia, quốc tế, sinh viê
 học và nêu được thủ trưởng đơn vị đào tạo đồng ý, sinh viên có thể không lên lớp
 thường xuyên, nhưng phải dự thi tích lũy học phần;
 
-ø) Tổ chức hội thảo chuyên môn ở các năm cuối; tăng cường phương pháp
+g) Tổ chức hội thảo chuyên môn ở các năm cuối; tăng cường phương pháp
 học tập gắn với nghiên cứu nhằm phát triển khả năng tư duy độc lập, sáng tạo.
 Tăng cường các giờ học thực hành, thực tập, thực tiễn; kết hợp học tập với nghiên
 cứu khoa học đề nâng cao hiệu quả tiếp thu học phản. Chậm nhất từ học kỳ thứ tư,
@@ -1218,7 +1167,7 @@ sang học chương trình dào tạo chuân chính quy của ngành học tươ
 phạm một trong các trường hợp sau:
 
 - Có một học phân nâng cao, bô sung đạt điêm F;
-- Có điểm trung bình chung các học phần tính đến thời điểm xét, đạt dưới 2,5;
+- Có điểm trung bình chung các học phần tính đến thời điểm xét, đạt dưới 2,5;
 - BỊ kỷ luật trong thời gian học từ mức khiên trách trở lên.
 b) Khi chuyên sang học chương trình đào tạo chuân chính quy, các học phân
 nâng cao, bô sung được chuyên đôi như sau:
@@ -1250,7 +1199,7 @@ sang điểm học phản nâng cao tương ứng, thủ trưởng đơn vị đ
 
 nhận tương đương hoặc yêu câu học bô sung kiên thức.
 
-Điều 28. Chuyển ngành học
+Điều 28. Chuyển ngành học
 
 l. Sinh viên hoàn thành năm học thứ nhật được xem xét chuyên sang học
 
@@ -1296,7 +1245,7 @@ các học phân tính đên thời điểm xét đạt từ 2,50 trở lên;
 c) Sinh viên đạt diêu kiện trúng tuyên của chương trình, ngành đào tạo cùng
 
 khóa tuyên sinh tại đơn vị chuyên đến;
-đ) Nơi chuyên đền có đủ các điêu kiện bảo đảm chât lượng và chưa vượt quá
+đ) Nơi chuyên đền có đủ các điêu kiện bảo đảm chât lượng và chưa vượt quá
 năng lực đào tạo đôi với chương trình, ngành đào tạo theo quy định hiện hành của
 Bộ Giáo dục và Đào tạo;
 
@@ -1342,7 +1291,6 @@ quy định tại Điều 22 và được miễn học, miễn thi các học ph
 4. Trường hợp đặc biệt, Giám đốc Đại học Quốc gia Hà Nội xem xét, quyết
 định.
 
-30
 
 Chương IV
 HOẠT ĐỘNG NGHIÊN CỨU KHOA HỌC CỦA SINH VIÊN
@@ -1389,9 +1337,6 @@ Tô chức xét, trao giải thưởng cho các công trình nghiên cứu khoa 
 
 của sinh viên Đại học Quốc gia Hà Nội.
 
-31
-
-.À .Ã „ ` z .^ ,. _ ° .^
 Điêu 32. Điêm thưởng thành tích nghiên cứu khoa học của sinh viên
 I. Điêm thưởng cho những công trình nghiên cứu khoa học của sinh viên đạt
 giải được cộng vào điểm trung bình chung học kỳ, điểm trung bình chung tích lũy
@@ -1431,7 +1376,7 @@ công trình nghiên cứu khoa học do nhiều sinh viên cùng thực hiện 
 được hưởng quyên lợi như nhau;
 
 b) Sinh viên có nguyện vọng.
-Chương V
+Chương V
 GIẢNG VIÊN, GIÁO VIÊN CHỦ NHIỆM VÀ CÔ VÁN HỌC TẬP
 
 Điều 33. Giảng viên
@@ -1474,7 +1419,7 @@ nhất của đơn vị đào tạo và của Đại học Quốc gia Hà Nội;
 phương pháp giảng dạy;
 
 - Tham gia đánh giá, phân loại chât lượng học tập của sinh viên.
-2. Quyên lợi của giảng viên
+2. Quyên lợi của giảng viên
 
 a) Được hưởng các quyền lợi chung và ưu đãi do nhà nước quy định, các chế
 độ bôi dưỡng, thù lao theo quy chê chỉ tiêu nội bộ của đơn vị.
@@ -1521,12 +1466,8 @@ nghiên cứu tiên tiến: có năng lực áp dụng các phương pháp giả
 - Có năng lực và có khả năng tô chức nghiên cứu khoa học, tham gia nhóm
 nghiên cứu, sẵn sàng làm việc trong một tập thê hoặc nhóm nghiên cứu của đơn vị
 
-z
-L
-
 và của Đại học Quốc gia Hà Nội;
 
-34
 
 - Có môi quan hệ và có khả năng hợp tác với các nhà khoa học, cơ quan, đơn
 vị, doanh nghiệp trong và ngoài nước;
@@ -1575,7 +1516,7 @@ vị đào tạo;
 
 b) Được bồ trí thời gian tham gia khóa tập huần chuyên môn, nghiệp vụ.
 
-Chương VI
+Chương VI
 NGHĨA VỤ VÀ QUYỀÊN LỢI CỦA SINH VIÊN
 
 Điều 35. Nghĩa vụ của sinh viên
@@ -1618,7 +1559,6 @@ luật cảnh cáo xuống mức khiến trách.
 
 Sinh viên bị cảnh cáo khi thi học phân nào sẽ bị trừ 50% số điểm đạt được
 
-36
 
 của bài thi học phần dó.
 e) Đình chỉ thi: Áp dụng đối với sinh viên vi phạm một trong các lỗi:
@@ -1667,7 +1607,6 @@ sinh viên phải hoàn trả cho đơn vị đào tạo toàn bộ kinh phí đ
 
 nhà nước trong thời gian theo học.
 
-37
 
 3. Sinh viên được xin nghỉ học tạm thời và bảo lưu kêt quả đã học trong các
 
@@ -1712,8 +1651,6 @@ tổ chức, cá nhân trong, ngoài nước. Những sinh viên ở xa được
 d. Được ưu tiên xét chọn đi học ở nước ngoài hoặc theo các chương trình hợp
 tác quốc tê của Đại học Quốc gia Hà Nội, của đơn vị đào tạo.
 
-38
-
 Chương VH
 KIÊM TRA, THỊ VÀ ĐÁNH GIÁ KẾT QUÁ HỌC TẬP
 
@@ -1747,16 +1684,13 @@ dụng khi đảm bảo trung thực, công băng và khách quan như đánh gi
 định trong đề cương học phần. Đáp án và thang điểm chấm điểm bộ phận, chấm
 bài thi kết thúc học phần phải được biên soạn cùng với đề kiểm tra đánh giá, đề thi.
 Thủ trưởng đơn vị dào tạo quy định việc sử dụng đề kiểm tra, đề thi do giảng viên
-
 đê xuất hoặc lây từ ngân hàng câu hỏi.
-VÀ Ầ z .sÄ z sự ° ELLÁ # `
+
 Điều 38. Tô chức kiêm tra đánh giá và thi kết thúc học phân
 
 1. Việc kiêm tra đánh giá và châm điểm bộ phận của mỗi học phần do giảng
 viên lớp học phân trực tiệp thực hiện và thông báo kết quả cho sinh viên, chậm
-
 nhất 7 ngày làm việc kề từ sau ngày kiểm tra hoặc ngày nộp tiểu luận, bài tập lớn.
-39
 
 Sinh viên chưa có điểm đánh giá bộ phận vì có lý do chính đáng được Chủ
 nhiệm Khoa/Bộ môn và giảng viên đồng ý tô chức kiểm tra đánh giá bổ sung cho
@@ -1777,7 +1711,6 @@ chính vì lý do chính dáng và được thủ trưởng đơn vị đào t�
 3. Lịch thi của kỳ thi chính phải được thông báo trước ít nhất 1 tháng, lịch
 thi của kỳ thi phụ phải được thông báo trước ít nhất 1 tuần. Trong kỳ thi, từng học
 phần được tổ chức thi riêng biệt, không bố trí thi ghép một số học phần trong cùng
-
 một buôi thi của một sinh viên.
 
 4. Chậm nhất một ngày sau khi kết thúc giảng dạy học phần, giảng viên gửi
@@ -1792,15 +1725,12 @@ tạo kỹ năng bồ trợ.
 6. Việc chấm thi và công bó điểm học phần được hoàn thành chậm nhất là
 15 ngày làm việc kế từ ngày tổ chức thi kết thúc học phân. Thủ trưởng đơn vị đào
 tạo qui định quy trình thực hiện và quản ly các điểm bộ phận. điểm thi kết thúc học
-
 phần và điểm học phân.
 
 7. Đề thi, đáp án và tất cả các bài thi kết thúc học phần sau khi chấm xong
 phải được bảo quản và lưu trữ ít nhất hai năm kể từ ngày thi. Bảng điểm bộ phận,
 danh sách thi kết thúc học phần và bảng tổng hợp điểm của học phần (file điện tử)
-
 là tài liệu lưu trữ vĩnh viễn của đơn vị đào tạo.
-40
 
 8. Sinh viên vắng mặt trong buổi thi kết thúc học phần. nếu không có lý do
 chính đáng phải nhận điểm 0 (không). Sinh viên vắng mặt có lý do chính đáng
@@ -1809,12 +1739,10 @@ lưu các điểm thành phần và được dự thi kết thúc học phân v�
 
 9, Ngoài các quy định trên, việc tổ chức kiểm tra, đánh giá và thi kết thúc
 học phần đối với sinh viên các chương trình đảo tạo tài năng, chất lượng cao được
-
 thực hiện như sau:
 
 - Các học phần có nội dung trùng với chương trình đảo tạo chuẩn có thể
 được tổ chức thi chung đề với chương trình đảo tạo chuẩn chính quy. Các học phần
-
 nâng cao, bô sung được tô chức thi đề riêng;
 
 - Điêm các học phần nâng cao, bố sung được quy đôi đê ghi vào phụ lục văn
@@ -1843,9 +1771,7 @@ vệ khóa luận, đô án trực tiệp thì việc tô chức được thực
 các điêu kiện sau đây:
 
 a) Việc đánh giá được thực hiện thông qua một hội đông chuyên môn gôm
-
 ít nhất 3 thành viên;
-41
 
 b) Hình thức bảo vệ và đánh giá trực tuyến được sự đồng thuận của các thành
 viên hội đồng và người học;
@@ -1857,7 +1783,6 @@ trữ theo quy định.
 một chữ só thập phân và được quy đổi sang điểm chữ theo quy định tại khoản 2,
 Điều 41 của Quy chế này. Điểm khoá luận, đồ án tốt nghiệp được thông báo công
 khai chậm nhất là một tuần sau khi các Hội đồng chấm khóa luận, đồ án tốt nghiệp
-
 hoàn thành nhiệm vụ.
 
 3. Điểm khoá luận, đồ án tốt nghiệp hoặc điểm các học phần thay thể được
@@ -1888,10 +1813,9 @@ và thi hành ký luật theo các hình thức sau:
 
 1. Khiển trách: áp dụng đối với những người vi phạm một trong các lỗi sau:
 đến chậm giờ quy định, không ký vào giấy thi, giấy nháp của sinh viên, không tập
-
 trung khi coi thi, bỏ 1 buổi coi thi không có lý do chính đáng.
 
-2. Cảnh cáo: áp dụng đối với những người vi phạm một trong các lỗi:
+2. Cảnh cáo: áp dụng đối với những người vi phạm một trong các lỗi:
 
 a) Bỏ 2 buỗi coi thi trở lên không có lý do chính đáng trong một năm học;
 b) Trong giờ coi thí bỏ đi làm việc khác;
@@ -1931,15 +1855,14 @@ làm tròn đến một chữ só thập phân, sau đó được chuyên thành
 
 a) Loại đạt có phân mức:
 
-90—10 tương ứng với AC
+9,0—10 tương ứng với A+
 8,5 8,9 tương ứng với A
-43
 
-8,0- 8,4 tương ứng với B'
+8,0- 8,4 tương ứng với B+
 7,0— 7,9 — tương ứng với B
-6,5—6,9 tương ứng với C'
+6,5—6,9 tương ứng với C+
 5,5Š—6,4 _ tương ứng với C
-5,0—5,4 _ tương ứng với D"
+5,0—5,4 _ tương ứng với D+
 4,0—4,9 _ tương ứng với D
 
 b) Loại đạt không phân mức: áp dụng cho các học phần chỉ yêu cầu đạt,
@@ -1978,7 +1901,6 @@ a) Trong thời gian học hoặc trong thời gian thị kết thúc học ph�
 bị m hoặc bị tai nạn không thê dự kiểm tra hoặc thi, được Thủ trưởng đơn vị đào
 tạo cho phép;
 
-44
 
 b) Sinh viên không thể dự kiểm tra bộ phận hoặc thi vì lý do khách quan và
 được Thủ trưởng đơn vị đào tạo chấp thuận.
@@ -2022,17 +1944,15 @@ của các học phân đã được đánh giá loại đạt mà sinh viên đ
 
 I. Đề tính điểm trung bình chung học kỳ, điểm trung bình chung các học
 phần và điểm trung bình chung tích lũy, mức điêm chữ của mỗi học phân được quy
-
 đôi thành điểm sô như sau:
-45
 
-A' tương ứng với 4,0
-A tương ứng với lu?
-B' tương ứng với 3.5
-B tương ứng với KT É
-"hà tương ứng với BÁC
+A+ tương ứng với 4,0
+A tương ứng với 3,7
+B+ tương ứng với 3.5
+B tương ứng với 3
+C+ tương ứng với 2,5
 C tương ứng với 2,0
-D' tương ứng với 1,5
+D+ tương ứng với 1,5
 D tương ứng với 1,0
 F tương ứng với 0
 
@@ -2040,32 +1960,19 @@ F tương ứng với 0
 điểm trung bình chung tích lũy được tính theo công thức sau và được làm tròn đến
 2 chữ số thập phân:
 
-H
-2,đ¡Hi
-A=i=l
-H
-2,H¡
+A = \frac{\sum_{i=1}^{n} a_i n_i}{\sum_{i=1}^{n} n_i}
 
-¡=]l
-trong đó:
-
-A4: là điểm trung bình chung học kỳ hoặc điểm trung bình chung các học
-
-phần hoặc điểm trung bình chung tích lũy
-¡: là số thứ tự học phần
-a¡: là điểm của học phần thứ i
-n¿: là số tín chỉ của học phần thứ i
-ñ: là tôn bị số học phần trong học kỳ hoặc tổng số học phần tính từ đầu
-khóa học tới thời điểm xem xét hoặc tổng số học phần đã tích lũy.
+A: là điểm trung bình chung học kỳ, hoặc điểm trung bình chung các học phần, hoặc điểm trung bình chung tích lũy
+i: là số thứ tự học phần
+a_i: là điểm của học phần thứ i
+n_i: là số tín chỉ của học phần thứ i
+n: là tổng số học phần trong học kỳ, hoặc tổng số học phần tính từ đầu khóa học tới thời điểm xem xét, hoặc tổng số học phần đã tích lũy.
 Kết quả đánh giá học phần giáo dục quốc phòng - an ninh, giáo dục thể chất
 không tính vào điểm trung bình chung học kỳ, điểm trung bình chung các học phần
-
 và điêm trung bình chung tích lũy.
 
 Điểm trung bình chung học kỳ được dùng để xét cảnh báo học vụ, buộc thôi
 học, nghỉ học tạm thời, xếp loại học lực, học bổng, khen thưởng sau mỗi học kỳ.
-
-46
 
 Điểm trung bình chung các học phần được dùng để đăng ký học cùng lúc
 chương trình đào tạo thứ hai, chuyển đổi sinh viên giữa các chương trình đảo tạo.
@@ -2109,7 +2016,6 @@ trưởng đơn vị đào tạo;
 
 b) Vượt quá thời gian tối đa được phép học quy định tại khoản 1, Điều 17 của
 Quy chế này;
-41
 
 c) BỊ kỷ luật lần thứ hai vì lý do thi hộ hoặc nhờ người thi hộ theo quy định
 tại điểm d, khoản 4, Điều 35 của Quy chế này hoặc bị kỷ luật ở mức xóa tên khỏi
@@ -2136,13 +2042,12 @@ trong giới hạn khói lượng quy định.
 
 sinh viên được xếp thành các loại sau:
 
-a) Xuất sắc: Diểm trung bình chung học kỳ từ 3,60 dến 4,00
+a) Xuất sắc: Điểm trung bình chung học kỳ từ 3,60 dến 4,00
 b) GIỏi: Điểm trung bình chung học kỳ từ 3,20 đến 3,59
 c) Khá: Điểm trung bình chung học kỳ từ 2,50 đến 3,19
 
 đ) Trung bình: Điểm trung bình chung học kỷ từ 2,00 đến 2,49
 đ) Yếu: Điểm trung bình chung học kỳ đạt dưới 2,0 nhưng chưa thuộc trường
-
 hợp bị buộc thôi học.
 
 Chương VHI
@@ -2151,15 +2056,11 @@ CÔNG NHẬN TÔT NGHIỆP
 Điều 46. Điều kiện tốt nghiệp
 
 1. Sinh viên sau khi hoàn thành chương trình đào tạo được xét công nhận tôt
-
 nghiệp nêu có đủ các điêu kiện sau:
 a) Trong thời gian học tập tôi đa của khóa học;
 
 b) Cho đến thời điểm xét tốt nghiệp, sinh viên không đang trong thời gian bị
-
 truy cứu trách nhiệm hình sự;
-
-48
 
 c) Tích lũy đủ số tín chỉ quy định trong chương trình đảo tạo;
 
@@ -2169,7 +2070,6 @@ chương trình đào tạo tài năng, chât lượng cao đạt từ 2,50 tr�
 đ) Đạt trình độ ngoại ngữ quy định tại khoản 3, Điều 13 của Quy chế nảy;
 
 e) Đáp ứng những yêu câu về kết qua học tập đôi với một sô học phân chuyên
-
 môn đặc thù mà Đại học Quốc gia Hà Nội và đơn vị đào tạo có quy định băng văn bản;
 
 ø) Được đánh giá đạt các học phần giáo dục quốc phòng - an ninh, giáo dục
@@ -2183,7 +2083,6 @@ chất lượng cao được quy đồi điểm như quy định ở Điều 22 
 tốt nghiệp và cấp băng đại học chính quy hệ chuẩn ngành đào tạo tương ứng.
 
 3. Sinh viên không đủ điều kiện tốt nghiệp được cấp giấy chứng nhận điểm
-
 các học phần trong chương trình đào tạo đã tích lũy.
 
 Điều 47. Công nhận tốt nghiệp và câp bằng đại học
@@ -2203,9 +2102,7 @@ Hội đồng xét tốt nghiệp, Hiệu trưởng trường đại học thàn
 nhận tốt nghiệp và cấp bằng đại học cho sinh viên đào tạo tại trường mình, Giám
 đốc Đại học Quốc gia Hà Nội ra quyết định công nhận tốt nghiệp và cấp bằng đại
 học cho sinh viên đào tạo tại Trường/Khoa trực thuộc theo đề nghị của Hiệu
-
 trưởng/Chủ nhiệm khoa.
-49
 
 3. Bằng tốt nghiệp đại học được cắp theo ngành học, trong bằng có ghi rõ
 tên ngành học, hình thức đào tạo, chương trình đào tạo, hạng tốt nghiệp. Đối với
@@ -2214,7 +2111,6 @@ ngành chính - ngành phụ, trong băng ghi tên ngành học chính.
 4. Bản chính bằng tốt nghiệp chỉ cắp một lần, không cấp lại.
 
 5. Hạng tốt nghiệp được xác định theo điểm trung bình chung tích lũy của
-
 toàn khóa học, cụ thê như sau:
 
 a) Xuất sắc: Điểm trung bình chung tích lũy từ 3,60 đến 4,00
@@ -2231,7 +2127,6 @@ thời gian học chương trình đào tạo thứ hai.
 7. Những sinh viên có kết quả học tập toàn khóa đạt hạng xuất sắc hoặc giỏi,
 hạng tốt nghiệp sẽ bị hạ một hạng nếu bị kỷ luật từ mức cảnh cáo trở lên trong thời
 gian học hoặc khối lượng của các học phần phải học lại vượt quá 5% so với tổng
-
 số tín chỉ quy định cho toàn chương trình.
 
 8. Phụ lục văn bằng cấp kèm theo bằng tốt nghiệp được quy định thống nhất
@@ -2248,14 +2143,11 @@ và chịu trách nhiệm về chất lượng đào tạo, giá trị văn bằ
 phần giáo dục thẻ chất, kỹ năng bổ trợ hoặc chưa đạt chuẩn đầu ra về ngoại ngữ,
 công nghệ thông tin (nếu có) nhưng đã hết thời gian tối đa được phép học, trong
 thời hạn 3 năm tính từ ngày phải ngừng học, được trở về đơn vị đào tạo hoàn thành
-
 các điêu kiện còn thiêu và đề nghị xét công nhận tôt nghiệp.
-50
 
 Điều 48. Quyền hạn sáp bằng đại học
 
 1. Đại học Quốc gia Hà Nội ban hành mẫu phôi băng, in, quản lý, câp phôi
-
 băng đại học cho các đơn vị đào tạo.
 
 2. Căn cứ vào quyết định công nhận tốt nghiệp, Hiệu trưởng trường đại học
@@ -2265,7 +2157,6 @@ viên được đào tạo ở trường mình.
 3. Căn cứ vào quyết định công nhận tốt nghiệp, Hiệu trưởng/Chủ nhiệm khoa
 trực thuộc ký (không đóng dấu của trường/khoa) trình Giám đốc Đại học
 Quốc gia Hà Nội ký và đóng dấu của Đại học Quốc gia Hà Nội vào bằng tốt nghiệp
-
 đại học cho những sinh viên được đảo tạo ở trường/khoa trực thuộc.
 
 Chương IX
@@ -2274,7 +2165,6 @@ TỎ CHỨC THỰC HIỆN
 Điều 49. Tô chức thực hiện
 
 Đơn vị đào tạo có trách nhiệm tô chức thực hiện đúng Quy chế này;
-
 Căn cứ Quy chê này, đơn vị đào tạo có thê xây dựng các quy định cụ thê,
 chỉ tiết về tô chức và quản lý đào tạo phù hợp với điêu kiện thực tê và đặc thù của
 đơn vị, nhưng không trái với Quy chê này;
@@ -2287,20 +2177,17 @@ Thủ trưởng đơn vị đào tạo tô chức kiêm tra, thanh tra nội b�
 kê hoạch dào tạo, chương trình đào tạo, quy chế đào tạo và các nhiệm vụ khác liên
 quan đền tô chức đảo tạo; chịu sự kiêm tra, thanh tra, giám sát của Đại học Quôc gia
 Hà Nội, Bộ Giáo dục và Đào tạo và các cơ quan có thâm quyên theo các quy định
-
 hiện hành.
 
 Đại học Quốc gia Hà Nội thực hiện thanh tra, kiêm tra việc thực hiện Quy
-
 chê này của các đơn vị đảo tạo.
-Điều 50. Chế độ báo cáo, lưu trữ, công khai thông tin
+Điều 50. Chế độ báo cáo, lưu trữ, công khai thông tin
 
 I. Trước ngày 31 tháng 12 hàng năm:
 
 a) Các đơn vị đào tạo báo cáo Đại học Quốc gia Hà Nội về số liệu sinh viên
 tuyên mới, tốt nghiệp, thôi học và đang học trong năm, dự kiến tốt nghiệp trong
 năm sau, tốt nghiệp đã có việc làm trong thời gian 12 tháng; phân loại theo đối
-
 tượng đầu vào, ngành đào tạo, khóa đào tạo và hình thức đào tạo;
 
 b) Đơn vị đào tạo báo cáo Ủy ban nhân dân câp tỉnh nơi liên kêt đào tạo đôi
@@ -2336,13 +2223,110 @@ trình đào tạo đáp ứng chuân chương trình đào tạo theo quy đị
 đ) Thông báo tuyên sinh theo quy chê tuyên sinh hiện hành;
 
 đ) Các minh chứng về việc đáp ứng các yêu cầu tối thiểu đối với liên kết đào
-
 tạo vừa làm vừa học theo quy định tại khoản 2, 3, Điều 10 của Quy chế này.
-Điều 51. Hiệu lực thi hành
+Điều 51. Hiệu lực thi hành
 
 Quy chế này có hiệu lực thi hành kế từ ngày ký và áp dụng cho các khóa
 tuyển sinh từ năm 2022 trở đi. Những quy định trước đây trái với Quy chế này đều
 bãi bỏ.
 
 Trường hợp đặc biệt, đơn vị báo cáo Giám đốc Đại học Quốc gia Hà Nội
-xem xét quyết định./. J⁄
+xem xét quyết định.
+
+Một số thông tin khác(UET)
+1) Phòng Đào tạo:
+Phòng 105 – Nhà E3.
+
+Email: daotao_dhcn@vnu.edu.vn
+
+Điện thoại: (024) 3202 6858
+
+2) Phòng Công tác sinh viên:
+Phòng 104 – Nhà E3.
+
+Email: ctsv_dhcn@vnu.edu.vn
+
+Điện thoại cơ sở Xuân Thủy: (024) 3754 8864
+
+Điện thoại cơ sở Hòa Lạc:     0886 241 976
+
+https://www.facebook.com/PhongCTSV.DHCN.VNU
+
+3) Phòng Kế hoạch Tài chính:
+Phòng 101 – Nhà E3.
+
+Điện thoại: (024) 3754 9401
+
+4) Trung tâm Đại học số:
+Nhà G2B, 144 Xuân Thủy, Cầu Giấy, Hà Nội.
+
+Điện thoại: (024) 3754 7463
+
+Website: http://ccne.uet.vnu.edu.vn/
+
+5) Khoa Công nghệ thông tin:
+Địa chỉ: Phòng 301 – Nhà E3, 144 Xuân Thủy, Cầu Giấy, Hà Nội.
+
+Điện thoại: (024) 3754 7064
+
+Website: http://fit.uet.vnu.edu.vn/
+
+6) Khoa Điện tử viễn thông:
+Địa chỉ: Phòng 205-Nhà G2, 144 Xuân Thủy, Cầu Giấy, Hà Nội.
+
+Điện thoại: (024) 3754 9338 Fax: (024) 3754 9338
+
+Email: dtvt@vnu.edu.vn
+
+7) Khoa Cơ học kỹ thuật và Tự động hóa:
+Cơ sở 1: Phòng 311, Nhà G2, 144 Xuân Thủy, Cầu Giấy, Hà Nội
+
+Cơ sở 2: Tầng 4, 5 – Nhà C, Viện Cơ học số 264 Đội Cấn, Ba Đình, Hà Nội.
+
+Website: http://fema.uet.vnu.edu.vn/
+
+Điện thoại: (024) 3754 9431
+
+8) Khoa Vật lý kỹ thuật và Công nghệ nano:
+Địa chỉ: Phòng 2.2 – Nhà E4, 144 Xuân Thủy, Cầu Giấy, Hà Nội.
+
+Điện thoại: (024) 3754 9429
+
+Email: vlkt-cnnn@vnu.edu.vn
+
+Website: http://fepn.uet.vnu.edu.vn/
+
+9) Khoa Công nghệ nông nghiệp:
+Phòng 312, Nhà G2, 144 Xuân Thủy, Cầu Giấy, Hà Nội.
+
+Website: http://www.fat.uet.vnu.edu.vn/
+
+Điện thoại: (024) 3212 3709
+
+10) Viện Công nghệ hàng không vũ trụ:
+Địa chỉ: Phòng 314 – Nhà G2 – 144 Xuân Thủy – Cầu Giấy – Hà Nội.
+
+Điện thoại: (024) 3754 9337
+
+Điện thoại: (024) 3754 9337
+
+Email: sae@vnu.edu.vn
+
+Website: http://sae.uet.vnu.edu.vn/
+
+11) Khoa Công nghệ xây dựng – giao thông:
+Địa chỉ: Phòng 710, Nhà E3, 144 Xuân Thủy, Cầu Giấy, Hà Nội.
+
+Điện thoại: (024) 3227 2837
+
+Website Khoa: http://cte.uet.vnu.edu.vn
+
+Website PTN: http://amslab.uet.vnu.edu.vn
+
+12) Viện Trí tuệ nhân tạo
+Địa chỉ: Phòng 315, Nhà G2, 144 Xuân Thủy, Cầu Giấy, Hà Nội
+
+Điện thoại: (+84) 098 725 1295
+
+Website Viện: https://uet.vnu.edu.vn/category/vien-tri-tue-nhan-tao/
+
