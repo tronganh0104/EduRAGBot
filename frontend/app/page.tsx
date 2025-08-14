@@ -26,10 +26,16 @@ import {
   Plus,
   Trash2,
   MessageSquareText,
+  BookOpen,
 } from "lucide-react"
 import { BACKEND_URL, AI_MODELS } from "./config"
 import { useTheme } from "next-themes"
 import { cn } from "@/lib/utils"
+
+interface Reference {
+  id: string
+  content: string
+}
 
 interface Message {
   id: string
@@ -37,6 +43,7 @@ interface Message {
   content: string
   timestamp: Date
   model?: string
+  references?: Reference[]
 }
 
 interface ChatSession {
@@ -201,6 +208,7 @@ export default function ProfessionalChat() {
         content: data.answer || "Xin lỗi, tôi không thể trả lời câu hỏi này.",
         timestamp: new Date(),
         model: selectedModel,
+        references: data.references || [], // Add references from backend response
       }
 
       const finalMessages = [...updatedMessages, replyMsg]
@@ -228,6 +236,21 @@ export default function ProfessionalChat() {
       handleSubmit(e as any)
     }
   }
+
+  const ReferenceCard = ({ reference, index }: { reference: Reference; index: number }) => (
+    <div className="bg-slate-50 dark:bg-slate-700/50 border border-slate-200 dark:border-slate-600 rounded-lg p-4">
+      <div className="flex items-start space-x-3">
+        <div className="flex-shrink-0">
+          <div className="w-6 h-6 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center">
+            <span className="text-xs font-medium text-blue-600 dark:text-blue-400">{index + 1}</span>
+          </div>
+        </div>
+        <div className="flex-1 min-w-0">
+          <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">{reference.content}</p>
+        </div>
+      </div>
+    </div>
+  )
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 dark:from-slate-950 dark:via-slate-900 dark:to-slate-800">
@@ -288,8 +311,6 @@ export default function ProfessionalChat() {
                         {AI_MODELS.map((model) => (
                           <SelectItem key={model.id} value={model.id}>
                             <div className="flex items-center space-x-3 py-1">
-                              {" "}
-                              {/* Re-added py-1 for better vertical alignment */}
                               <div className={`w-3 h-3 rounded-full ${model.color}`} />
                               <div className="flex flex-col justify-center">
                                 <span className="font-medium text-sm">{model.name}</span>
@@ -306,6 +327,9 @@ export default function ProfessionalChat() {
                   <div className="space-y-2">
                     <div className="flex items-center justify-between text-sm">
                       <span className="text-slate-600 dark:text-slate-400">Mô hình hiện tại:</span>
+                      <Badge variant="outline" className="text-xs">
+                        {getCurrentModel().name}
+                      </Badge>
                     </div>
                     <div className="flex items-center justify-between text-sm">
                       <span className="text-slate-600 dark:text-slate-400">Tin nhắn:</span>
@@ -363,8 +387,6 @@ export default function ProfessionalChat() {
           </div>
           {/* Chat Area */}
           <div className="lg:col-span-3 flex flex-col h-[calc(100vh-10rem)]">
-            {" "}
-            {/* Adjusted height for chat area */}
             <Card className="h-full bg-white/60 dark:bg-slate-900/60 backdrop-blur-sm border-slate-200/60 dark:border-slate-800/60 flex flex-col">
               {/* Chat Header */}
               <div className="flex items-center justify-between p-4 border-b border-slate-200 dark:border-slate-700 flex-shrink-0">
@@ -390,11 +412,7 @@ export default function ProfessionalChat() {
               {/* Fixed Height Chat Messages Container */}
               <div className="flex-1 flex flex-col min-h-0">
                 <div className="flex-1 overflow-hidden">
-                  <div
-                    ref={chatContainerRef}
-                    className="h-full overflow-y-auto p-6 space-y-6 scroll-smooth"
-                    // Removed maxHeight here to allow it to fill available space
-                  >
+                  <div ref={chatContainerRef} className="h-full overflow-y-auto p-6 space-y-6 scroll-smooth">
                     {messages.length === 0 && (
                       <div className="flex items-center justify-center h-full">
                         <div className="text-center max-w-md mx-auto">
@@ -408,6 +426,16 @@ export default function ProfessionalChat() {
                             Tôi là trợ lý AI chuyên về quy chế đào tạo. Hãy đặt câu hỏi để tôi có thể hỗ trợ bạn tốt
                             nhất.
                           </p>
+                          <div className="flex flex-wrap gap-2 justify-center">
+                            <Badge variant="outline" className="text-xs">
+                              <HelpCircle className="w-3 h-3 mr-1" />
+                              Quy định điểm số
+                            </Badge>
+                            <Badge variant="outline" className="text-xs">
+                              <Settings className="w-3 h-3 mr-1" />
+                              Quy trình tốt nghiệp
+                            </Badge>
+                          </div>
                         </div>
                       </div>
                     )}
@@ -425,7 +453,7 @@ export default function ProfessionalChat() {
                           </Avatar>
                         )}
 
-                        <div className={`max-w-[75%] ${message.role === "user" ? "order-1" : ""}`}>
+                        <div className={`max-w-[85%] ${message.role === "user" ? "order-1" : ""}`}>
                           <div
                             className={`rounded-2xl px-5 py-4 shadow-sm ${
                               message.role === "user"
@@ -448,6 +476,23 @@ export default function ProfessionalChat() {
                               )}
                             </div>
                           </div>
+
+                          {/* References Section - Only for assistant messages */}
+                          {message.role === "assistant" && message.references && message.references.length > 0 && (
+                            <div className="mt-4 space-y-3">
+                              <div className="flex items-center space-x-2">
+                                <BookOpen className="w-4 h-4 text-slate-600 dark:text-slate-400" />
+                                <h4 className="text-sm font-medium text-slate-700 dark:text-slate-300">
+                                  Tài liệu tham khảo ({message.references.length})
+                                </h4>
+                              </div>
+                              <div className="space-y-3">
+                                {message.references.map((reference, index) => (
+                                  <ReferenceCard key={reference.id} reference={reference} index={index} />
+                                ))}
+                              </div>
+                            </div>
+                          )}
                         </div>
 
                         {message.role === "user" && (
@@ -524,7 +569,7 @@ export default function ProfessionalChat() {
                     </div>
 
                     <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
-                      <span>Nhấn Enter để gửi</span>
+                      <span>Nhấn Enter để gửi • Shift + Enter để xuống dòng</span>
                       <div className="flex items-center space-x-2">
                         <div className={`w-2 h-2 rounded-full ${getCurrentModel().color}`}></div>
                         <span>{getCurrentModel().name}</span>
