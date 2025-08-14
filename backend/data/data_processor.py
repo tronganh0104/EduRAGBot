@@ -4,14 +4,15 @@ import re
 from pypdf import PdfReader
 import os
 
-def split_chunks(text, chunk_size=1200, chunk_overlap=300):
+def split_chunks_by_dieu(text, chunk_size=1200, chunk_overlap=300):
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
         chunk_overlap=chunk_overlap,
-        separators=["\n\n", "\n", " ", ""]
+        separators=["\nĐiều ", "Điều ", "\n\n", "\n", " ", ""]
     )
     chunks = splitter.split_text(text)
     return chunks
+
 
 
 def split_chunks_by_structure(text):
