@@ -9,13 +9,20 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
 CONFIG = {
-    "question_classifier_path": "C:/Users/Admin/Downloads/model/models/question_classifier",    
     "index_path": "C:/Users/Admin/Downloads/model/vector_store_data_v3/index.faiss",
     "docs_path": "C:/Users/Admin/Downloads/model/vector_store_data_v3/docs.pkl",
-    "question_encoder_path": "C:/Users/Admin/Downloads/model/models/dpr-phobert-augmented",    
-    "reranker_model": "BAAI/bge-reranker-base",    
-    "default_retriever_k": 10,
-    "default_reranker_top_n": 3
+    "question_encoder_path": "C:/Users/Admin/Downloads/model/models/dpr-phobert-augmented",
+    "question_classifier_path": "C:/Users/Admin/Downloads/model/models/question_classifier",
+    "reranker_model": "BAAI/bge-reranker-base",
+    
+    "strategy_config": {
+        "Definition": {"k": 5, "top_n": 1},
+        "Factoid":    {"k": 5, "top_n": 2},
+        "Yes/No":     {"k": 7, "top_n": 2},
+        "List":       {"k": 8, "top_n": 3},
+        "Inference":  {"k": 12, "top_n": 4}
+    },
+    "relevance_similarity_threshold": 0.45
 }
 
 class QuestionClassifier:
@@ -51,35 +58,37 @@ class DprAdaptiveQuerySystem:
         doc_score_pairs.sort(key=lambda x: x[1], reverse=True)
         return [doc for doc, score in doc_score_pairs[:top_n]]
 
-    def query(self, question: str) -> list[Document]:        
-        question_type = self.classifier.classify(question)        
-        retriever_k = self.config['default_retriever_k']
-        reranker_top_n = self.config['default_reranker_top_n']
+    def query(self, question: str) -> list[Document]:
+        print(f"\n====================\nBắt đầu xử lý câu hỏi: '{question}'")                
+        question_type = self.classifier.classify(question)
+        print(f"Loại câu hỏi được xác định: {question_type}")
+        
+        strategy = self.config['strategy_config'].get(question_type, self.config['strategy_config']['Inference'])
+        retriever_k = strategy['k']
+        reranker_top_n = strategy['top_n']
 
-        if question_type in ["Definition", "Factoid"]:
-            print("Chiến lược: Tập trung (Focused) - Tìm kiếm chính xác.")
-            retriever_k = 5   
-            reranker_top_n = 1 
-        elif question_type == "Yes/No":
-            print("Chiến lược: Cân bằng (Balanced) - Tìm quy định và ngữ cảnh.")
-            retriever_k = 7
-            reranker_top_n = 2
-        elif question_type == "List":
-            print("Chiến lược: Bao phủ (Comprehensive) - Tìm đủ các mục.")
-            retriever_k = 10
-            reranker_top_n = 4 
-        elif question_type == "Inference":
-            print("Chiến lược: Tổng hợp (Synthesizing) - Tối đa hóa ngữ cảnh liên quan.")
-            retriever_k = 12  
-            reranker_top_n = 4
-                
+        print(f"Chiến lược được chọn: retriever_k={retriever_k}, reranker_top_n={reranker_top_n}")
+        
         query_vector = self.question_encoder.encode(question)
-        query_vector_2d = np.array([query_vector], dtype='float32')
-        distances, indices = self.index.search(query_vector_2d, k=retriever_k)
-        candidate_docs_data = [self.docs[i] for i in indices[0]]
-        candidate_docs_lc = [Document(page_content=doc['content'], metadata=doc['metadata']) for doc in candidate_docs_data]
-        print(f"DPR Retrieval tìm thấy {len(candidate_docs_lc)} ứng viên.")
+        query_vector_2d  = np.array([query_vector], dtype='float32')
 
+        faiss.normalize_L2(query_vector_2d)
+        scores, indices = self.index.search(query_vector_2d, k=retriever_k)        
+
+        best_score = scores[0][0]
+        threshold = self.config['relevance_similarity_threshold']
+
+        print(f"Độ tương đồng của kết quả cao nhất: {best_score:.4f} (Ngưỡng yêu cầu: > {threshold})")
+
+        if best_score < threshold: 
+            print("CẢNH BÁO: Kết quả tốt nhất không đủ độ tương đồng.")
+            print("=> KẾT LUẬN: Không tìm thấy tài liệu liên quan trong kho tri thức.")
+            return []
+
+        candidate_docs_data = [self.docs[i] for i in indices[0]]
+        candidate_docs_lc = [Document(page_content=doc['content'], metadata=doc['metadata']) for doc in candidate_docs_data]        
+
+        # RERANKING
         final_docs = self._rerank(question, candidate_docs_lc, top_n=reranker_top_n)
         
         return final_docs
@@ -93,17 +102,19 @@ if __name__ == '__main__':
         query_system = DprAdaptiveQuerySystem(CONFIG)
         
         test_queries = {
-            "Definition": "Học phần điều kiện là gì ?",
-            "Yes/No": "Sinh viên có được phép học cùng lúc hai chương trình không?",
-            "List": "Liệt kê các hạng tốt nghiệp của sinh viên?",
-            "Inference": "Làm thế nào để một sinh viên đang học chương trình chuẩn có thể chuyển sang học chương trình tài năng?",
-            "Factoid": "Điểm chữ F tương ứng với thang điểm số mấy?"
+            "Definition (In-Domain)": "Học phần điều kiện là gì ?",
+            "Inference (In-Domain)": "Làm thế nào để một sinh viên đang học chương trình chuẩn có thể chuyển sang học chương trình tài năng?",
+            "Out-of-Domain": "Thành phần của kem matcha mixue là gì?"
         }
 
         for q_type, q_text in test_queries.items():
             final_results = query_system.query(q_text)
+            
             print(f"\nKết quả cuối cùng cho câu hỏi '{q_text}' (Loại được test: {q_type}):")
-            for i, doc in enumerate(final_results):
-                print(f"  --- Document {i+1} ---")                
-                print(f"  Nội dung: {doc.page_content}")
-                print(f"  Metadata: {doc.metadata}")
+            if not final_results:
+                print("--> Hệ thống đã xác định câu hỏi nằm ngoài phạm vi và không trả về kết quả nào (ĐÚNG).")
+            else:
+                for i, doc in enumerate(final_results):
+                    print(f"  --- Document {i+1} ---")
+                    print(f"  Nội dung: {doc.page_content}")
+                    print(f"  Metadata: {doc.metadata}")
