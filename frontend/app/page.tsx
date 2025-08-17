@@ -426,16 +426,6 @@ export default function ProfessionalChat() {
                             Tôi là trợ lý AI chuyên về quy chế đào tạo. Hãy đặt câu hỏi để tôi có thể hỗ trợ bạn tốt
                             nhất.
                           </p>
-                          <div className="flex flex-wrap gap-2 justify-center">
-                            <Badge variant="outline" className="text-xs">
-                              <HelpCircle className="w-3 h-3 mr-1" />
-                              Quy định điểm số
-                            </Badge>
-                            <Badge variant="outline" className="text-xs">
-                              <Settings className="w-3 h-3 mr-1" />
-                              Quy trình tốt nghiệp
-                            </Badge>
-                          </div>
                         </div>
                       </div>
                     )}
@@ -569,7 +559,7 @@ export default function ProfessionalChat() {
                     </div>
 
                     <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
-                      <span>Nhấn Enter để gửi • Shift + Enter để xuống dòng</span>
+                      <span>Nhấn Enter để gửi</span>
                       <div className="flex items-center space-x-2">
                         <div className={`w-2 h-2 rounded-full ${getCurrentModel().color}`}></div>
                         <span>{getCurrentModel().name}</span>
