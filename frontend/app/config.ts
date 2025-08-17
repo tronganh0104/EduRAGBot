@@ -2,8 +2,8 @@ export const BACKEND_URL = "https://df155a8127d9.ngrok-free.app"        ;
 
 export const AI_MODELS = [
     {
-      id: "Qwen3 4B pretrain",
-      name: "Qwen3 4B Pretrain",
+      id: "Qwen3 4B",
+      name: "Qwen3 4B",
       color: "bg-emerald-500",
     },
     {
