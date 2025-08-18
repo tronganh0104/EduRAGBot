@@ -9,20 +9,20 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
 CONFIG = {
-    "index_path": "C:/Users/Admin/Downloads/model/vector_store_data_v3/index.faiss",
-    "docs_path": "C:/Users/Admin/Downloads/model/vector_store_data_v3/docs.pkl",
+    "index_path": "C:/Users/Admin/Downloads/model/vector_store_data_v4/index.faiss",
+    "docs_path": "C:/Users/Admin/Downloads/model/vector_store_data_v4/docs.pkl",
     "question_encoder_path": "C:/Users/Admin/Downloads/model/models/dpr-phobert-augmented",
     "question_classifier_path": "C:/Users/Admin/Downloads/model/models/question_classifier",
     "reranker_model": "BAAI/bge-reranker-base",
     
     "strategy_config": {
         "Definition": {"k": 5, "top_n": 1},
-        "Factoid":    {"k": 5, "top_n": 2},
-        "Yes/No":     {"k": 7, "top_n": 2},
-        "List":       {"k": 8, "top_n": 3},
-        "Inference":  {"k": 12, "top_n": 4}
+        "Factoid":    {"k": 5, "top_n": 3},
+        "Yes/No":     {"k": 7, "top_n": 4},
+        "List":       {"k": 8, "top_n": 4},
+        "Inference":  {"k": 12, "top_n": 5}
     },
-    "relevance_similarity_threshold": 0.45
+    "relevance_similarity_threshold": 0.3726
 }
 
 class QuestionClassifier:
@@ -102,9 +102,22 @@ if __name__ == '__main__':
         query_system = DprAdaptiveQuerySystem(CONFIG)
         
         test_queries = {
-            "Definition (In-Domain)": "Học phần điều kiện là gì ?",
-            "Inference (In-Domain)": "Làm thế nào để một sinh viên đang học chương trình chuẩn có thể chuyển sang học chương trình tài năng?",
-            "Out-of-Domain": "Thành phần của kem matcha mixue là gì?"
+            # --- Các câu hỏi thông tin cơ bản ---
+            "Definition (Rất dễ)": "Học phần điều kiện là gì?",
+            "Factoid (Dễ)": "Điểm chữ F tương ứng với thang điểm số mấy?",
+            
+            # --- Các câu hỏi yêu cầu tìm kiếm chính xác ---
+            "Yes/No (Trung bình)": "Sinh viên có được phép học cùng lúc hai chương trình không?",
+            "List (Trung bình)": "Liệt kê các trường hợp sinh viên bị buộc thôi học?",
+            
+            # --- Các câu hỏi suy luận và phức tạp ---
+            "Inference (Khó)": "Phân biệt giữa việc chuyển ngành và chuyển trường?",
+            "Inference (Rất khó)": "Một sinh viên năm thứ ba chương trình chất lượng cao bị điểm F một học phần nâng cao, cần làm gì?",
+            
+            # --- Các câu hỏi kiểm tra giới hạn và lớp kiểm duyệt ---
+            "Borderline (Kiểm tra ngưỡng)": "Quy định về việc miễn giảm học phí cho sinh viên có hoàn cảnh khó khăn là gì?",
+            "Out-of-Domain (Dễ từ chối)": "Công thức nấu món phở bò Hà Nội?",
+            "Out-of-Domain (Gây nhiễu)": "Thủ tục đăng ký thi bằng lái xe máy cho sinh viên?",
         }
 
         for q_type, q_text in test_queries.items():

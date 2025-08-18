@@ -26,8 +26,6 @@ Căn cứ Nghị quyết số 3349/NQ-HĐ ngày 04 tháng 10 năm 2022 của H�
 Đại học Quốc gia Hà Nội nhiệm kỳ 2018-2023 VỀ Việc thông qua Quy chế đào tạo đại
 học tại Đại học Quốc gia Hà Nội;	
 
-Chương I
-NHỮNG QUY ĐỊNH CHUNG
 Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng
 Quy chế này quy định về đào tạo đại học theo hình thức chính quy và hình thức vừa làm vừa học tại Đại học Quốc gia Hà Nội, bao gồm: chương trình đào tạo và thời gian học tập; tổ chức và quản lý đào tạo; nghiên cứu khoa học của sinh viên; quyền lợi và nghĩa vụ của giảng viên, cố vấn học tập, sinh viên; kiểm tra, thi và đánh giá kết quả học tập; công nhận tốt nghiệp.
 Quy chế này áp dụng cho các chương trình đào tạo do Giám đốc Đại học Quốc gia Hà Nội, Hiệu trưởng các trường thành viên cấp bằng và các chương trình đào tạo liên kết với cơ sở giáo dục nước ngoài do Đại học Quốc gia Hà Nội cấp bằng, hai bên cùng cấp bằng.
@@ -152,8 +150,6 @@ b) Đơn vị chủ trì đào tạo chịu trách nhiệm quản lý chất lư
 c) Đơn vị phối hợp đào tạo có trách nhiệm cùng đơn vị chủ trì đào tạo bảo đảm đủ điều kiện cơ sở vật chất thực hiện đào tạo; tham gia quản lý, giảng dạy, theo thoả thuận giữa hai bên;
 d) Đơn vị chủ trì đào tạo, đơn vị phối hợp đào tạo chịu trách nhiệm trước pháp luật về việc thực hiện hợp đồng liên kết đào tạo; thực hiện các quy chế về tuyển sinh, đào tạo; bảo đảm quyền lợi chính đáng cho giảng viên, sinh viên trong suốt quá trình thực hiện hoạt động đào tạo, cho đến khi sinh viên khóa cuối cùng tốt nghiệp trong trường hợp dừng hợp tác.
 
-Chương II
-CHƯƠNG TRÌNH ĐÀO TẠO
 Điều 11. Cấu trúc chương trình đào tạo
 Chương trình đào tạo được sắp xếp theo các khối kiến thức:
 Khối kiến thức chung được tổ chức giảng dạy thống nhất cho tất cả các ngành học.
@@ -208,8 +204,6 @@ a) Xây dựng chương trình đào tạo, đề án mở ngành học mới v�
 b) Cập nhật, điều chỉnh, thẩm định và ban hành chương trình đào tạo điều chỉnh theo phân cấp và quy định hiện hành của Đại học Quốc gia Hà Nội;
 c) Xây dựng, nghiệm thu đề cương học phần của các học phần thuộc đơn vị quản lý.
 
-Chương III
-TỔ CHỨC ĐÀO TẠO
 Điều 16. Học kỳ
 Mỗi năm học có hai học kỳ chính và một học kỳ phụ. Mỗi học kỳ chính có 15 tuần học, từ 3 đến 4 tuần thi và 1 tuần dự phòng.
 Mỗi học kỳ phụ có ít nhất 5 tuần học và 1 tuần thi, được tổ chức trong thời gian giữa hai học kỳ chính.
@@ -416,8 +410,7 @@ Là công dân sử dụng ngoại ngữ cần dùng như ngôn ngữ chính th�
 Có chứng chỉ tiếng Việt hoặc ngoại ngữ đạt bậc 4 (theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam) trở lên;
 Sinh viên chuyển trường được bảo lưu điểm và số tín chỉ của học phần theo quy định tại Điều 22 và được miễn học, miễn thi các học phần giáo dục quốc phòng - an ninh, giáo dục thể chất theo quy định tại Điều 24 của Quy chế này.
 Trường hợp đặc biệt, Giám đốc Đại học Quốc gia Hà Nội xem xét, quyết định.
-Chương IV
-HOẠT ĐỘNG NGHIÊN CỨU KHOA HỌC CỦA SINH VIÊN
+
 Điều 30. Hoạt động nghiên cứu khoa học của sinh viên
 Hoạt động nghiên cứu khoa học của sinh viên được tổ chức dưới các hình thức:
 Tham gia câu lạc bộ khoa học sinh viên, sinh hoạt chuyên đề khoa học, báo cáo khoa học tại các hội nghị, hội thảo khoa học, công bố bài báo khoa học trên các tạp chí chuyên ngành.
@@ -450,8 +443,7 @@ Nếu sinh viên đạt nhiều giải thưởng nghiên cứu khoa học ở c�
 Công trình nghiên cứu khoa học được tính như một niên luận hoặc tiểu luận; được thay cho một học phần tự chọn có điều kiện thuộc khối kiến thức ngành sẽ được tích lũy vào kết quả học tập chung của học kỳ; được tính đến khi xét học bổng, xét học tiếp sau đại học và các quyền lợi khác, nếu có đủ các điều kiện sau:
 a) Được Hội đồng cấp khoa đánh giá cho điểm (quy về thang điểm 10) và quyết định thay cho học phần nào trong chương trình đào tạo của ngành học; Nếu công trình nghiên cứu khoa học do nhiều sinh viên cùng thực hiện thì sinh viên được hưởng quyền lợi như nhau;
 b) Sinh viên có nguyện vọng.
-Chương V
-GIẢNG VIÊN, GIÁO VIÊN CHỦ NHIỆM VÀ CỐ VẤN HỌC TẬP
+
 Điều 33. Giảng viên
 Trách nhiệm và quyền hạn của giảng viên
 a) Thực hiện nhiệm vụ của viên chức theo quy định của Luật Giáo dục, Luật Giáo dục đại học, Luật Viên chức và pháp luật có liên quan; giữ gìn phẩm chất, uy tín, danh dự của nhà giáo; tôn trọng nhân cách của người học, đối xử công bằng với người học, bảo vệ các quyền, lợi ích chính đáng của người học; tham gia quản lý đơn vị đào tạo, tham gia công tác Đảng, đoàn thể khi được tín nhiệm và các công tác khác được trường, khoa, bộ môn giao.
@@ -490,8 +482,7 @@ d) Phối hợp với Phòng Đào tạo, Phòng Công tác sinh viên, các gi�
 Quyền lợi của cố vấn học tập, giáo viên chủ nhiệm
 a) Được giảm số giờ dạy định mức, hưởng phụ cấp theo quy định của đơn vị đào tạo;
 b) Được bố trí thời gian tham gia khóa tập huấn chuyên môn, nghiệp vụ.
-Chương VI
-NGHĨA VỤ VÀ QUYỀN LỢI CỦA SINH VIÊN
+
 Điều 35. Nghĩa vụ của sinh viên
 Thực hiện nghĩa vụ của công dân theo quy định của pháp luật. Sinh viên là người nước ngoài phải tuân thủ pháp luật Việt Nam, tôn trọng phong tục, tập quán của Việt Nam.
 Thực hiện đúng các quy chế, quy định của Đại học Quốc gia Hà Nội và của đơn vị đào tạo về công tác sinh viên.
@@ -532,8 +523,7 @@ a) Được các nhà khoa học đầu ngành, các giáo sư, giảng viên c�
 b) Được ưu tiên cung cấp hoặc sử dụng các tài liệu học tập; được ưu tiên sử dụng các phương tiện, trang thiết bị kỹ thuật, thư viện và hệ thống internet phục vụ cho học tập và nghiên cứu khoa học;
 c) Được ưu tiên xét cấp học bổng khuyến khích phát triển và học bổng của các tổ chức, cá nhân trong, ngoài nước. Những sinh viên ở xa được ưu tiên bố trí chỗ ở trong ký túc xá;
 d) Được ưu tiên xét chọn đi học ở nước ngoài hoặc theo các chương trình hợp tác quốc tế của Đại học Quốc gia Hà Nội, của đơn vị đào tạo.
-Chương VII
-KIỂM TRA, THI VÀ ĐÁNH GIÁ KẾT QUẢ HỌC TẬP
+
 Điều 37. Đánh giá kết quả học phần
 Điểm đánh giá học phần (gọi là điểm học phần) bao gồm: điểm đánh giá bộ phận (trung bình của các điểm kiểm tra đánh giá thường xuyên, giữa kỳ) và điểm đánh giá kết thúc học phần, trong đó, điểm kết thúc học phần là bắt buộc và có trọng số không dưới 60% điểm của học phần.
 Kiểm tra đánh giá thường xuyên là hoạt động của giảng viên sử dụng các kỹ thuật đánh giá khác nhau trong các hình thức dạy học nhằm kiểm tra việc nắm vững kiến thức và rèn luyện kỹ năng đã được xác định trong mục tiêu của học phần, đồng thời qua đó có được những thông tin phản hồi giúp giảng viên, sinh viên điều chỉnh cách dạy, cách học, thay đổi phương pháp dạy và học cho phù hợp.
@@ -668,8 +658,6 @@ b) Giỏi: Điểm trung bình chung học kỳ từ 3,20 đến 3,59
 c) Khá: Điểm trung bình chung học kỳ từ 2,50 đến 3,19
 d) Trung bình: Điểm trung bình chung học kỳ từ 2,00 đến 2,49
 đ) Yếu: Điểm trung bình chung học kỳ đạt dưới 2,00 nhưng chưa thuộc trường hợp bị buộc thôi học.
-Chương VIII
-CÔNG NHẬN TỐT NGHIỆP
 Điều 46. Điều kiện tốt nghiệp
 Sinh viên sau khi hoàn thành chương trình đào tạo được xét công nhận tốt nghiệp nếu có đủ các điều kiện sau:
 a) Trong thời gian học tập tối đa của khóa học;
@@ -701,8 +689,7 @@ Sinh viên chưa hoàn thành học phần giáo dục quốc phòng - an ninh, 
 Đại học Quốc gia Hà Nội ban hành mẫu phôi bằng, in, quản lý, cấp phôi bằng đại học cho các đơn vị đào tạo.
 Căn cứ vào quyết định công nhận tốt nghiệp, Hiệu trưởng trường đại học thành viên ký và đóng dấu của trường vào bằng tốt nghiệp đại học cho những sinh viên được đào tạo ở trường mình.
 Căn cứ vào quyết định công nhận tốt nghiệp, Hiệu trưởng/Chủ nhiệm khoa trực thuộc ký (không đóng dấu của trường/khoa) trình Giám đốc Đại học Quốc gia Hà Nội ký và đóng dấu của Đại học Quốc gia Hà Nội vào bằng tốt nghiệp đại học cho những sinh viên được đào tạo ở trường/khoa trực thuộc.
-Chương IX
-TỔ CHỨC THỰC HIỆN
+
 Điều 49. Tổ chức thực hiện
 Đơn vị đào tạo có trách nhiệm tổ chức thực hiện đúng Quy chế này;
 Căn cứ Quy chế này, đơn vị đào tạo có thể xây dựng các quy định cụ thể, chi tiết về tổ chức và quản lý đào tạo phù hợp với điều kiện thực tế và đặc thù của đơn vị, nhưng không trái với Quy chế này;
