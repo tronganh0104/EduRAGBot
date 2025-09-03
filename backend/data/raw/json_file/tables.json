@@ -1,0 +1,1263 @@
+[
+  {
+    "page": 1,
+    "table_id": 1,
+    "headers": [
+      "TT",
+      "Phương thức",
+      "Chỉ tiêu"
+    ],
+    "rows": [
+      {
+        "TT": "1",
+        "Phương thức": "Xét tuyển thẳng",
+        "Chỉ tiêu": "Không giới\nhạn"
+      },
+      {
+        "TT": "2",
+        "Phương thức": "Xét tuyển theo kế hoạch chung của Bộ GD&ĐT",
+        "Chỉ tiêu": "Tổng chỉ\ntiêu trừ đi\nsố tuyển\nthẳng"
+      },
+      {
+        "TT": null,
+        "Phương thức": "- Xét tuyển theo kết quả thi tốt nghiệp THPT năm 2025",
+        "Chỉ tiêu": null
+      },
+      {
+        "TT": null,
+        "Phương thức": "- Xét tuyển theo kết quả thi đánh giá năng lực do ĐHQGHN tổ chức (HSA)",
+        "Chỉ tiêu": null
+      },
+      {
+        "TT": null,
+        "Phương thức": "- Xét tuyển theo kết quả kỳ thi chuẩn hóa quốc tế SAT (Scholastic Assessment\nTest)",
+        "Chỉ tiêu": null
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "table_id": 1,
+    "headers": [
+      "TT",
+      "Môn thi đạt giải",
+      "Ngành xét tuyển thẳng"
+    ],
+    "rows": [
+      {
+        "TT": "1",
+        "Môn thi đạt giải": "Toán",
+        "Ngành xét tuyển thẳng": "Tất cả các ngành"
+      },
+      {
+        "TT": "2",
+        "Môn thi đạt giải": "Tin học",
+        "Ngành xét tuyển thẳng": "Tất cả các ngành"
+      },
+      {
+        "TT": "3",
+        "Môn thi đạt giải": "Vật lý",
+        "Ngành xét tuyển thẳng": "Tất cả các ngành"
+      },
+      {
+        "TT": "4",
+        "Môn thi đạt giải": "Hóa học",
+        "Ngành xét tuyển thẳng": "Tất cả các ngành"
+      },
+      {
+        "TT": "5",
+        "Môn thi đạt giải": "Sinh học",
+        "Ngành xét tuyển thẳng": "Công nghệ nông nghiệp; Công nghệ sinh học"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "table_id": 2,
+    "headers": [
+      "TT",
+      "Tổ hợp môn xét tuyển",
+      "Ngành xét tuyển"
+    ],
+    "rows": [
+      {
+        "TT": "1",
+        "Tổ hợp môn xét tuyển": "A00: Toán, Lý, Hóa",
+        "Ngành xét tuyển": "Tất cả các ngành"
+      },
+      {
+        "TT": "2",
+        "Tổ hợp môn xét tuyển": "A01: Toán, Lý, Anh",
+        "Ngành xét tuyển": "Tất cả các ngành"
+      },
+      {
+        "TT": "3",
+        "Tổ hợp môn xét tuyển": "X26: Toán, Anh, Tin",
+        "Ngành xét tuyển": "Tất cả các ngành"
+      },
+      {
+        "TT": "4",
+        "Tổ hợp môn xét tuyển": "X06: Toán, Lý, Tin",
+        "Ngành xét tuyển": "Tất cả các ngành"
+      },
+      {
+        "TT": "5",
+        "Tổ hợp môn xét tuyển": "D01: Toán, Văn, Anh (Toán hệ số 2)",
+        "Ngành xét tuyển": "Tất cả các ngành"
+      },
+      {
+        "TT": "6",
+        "Tổ hợp môn xét tuyển": "B00: Toán, Hóa, Sinh",
+        "Ngành xét tuyển": "Công nghệ nông nghiệp;\nCông nghệ sinh học"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "table_id": 3,
+    "headers": [
+      "TT",
+      "Trình độ Tiếng Anh",
+      null,
+      "Điểm quy đổi sang\nthang điểm 10"
+    ],
+    "rows": [
+      {
+        "TT": null,
+        "Trình độ Tiếng Anh": "IELTS\n(Academic)",
+        "col_3": "TOEFL iBT",
+        "Điểm quy đổi sang\nthang điểm 10": null
+      },
+      {
+        "TT": "1",
+        "Trình độ Tiếng Anh": "5.5",
+        "col_3": "72",
+        "Điểm quy đổi sang\nthang điểm 10": "8.5"
+      },
+      {
+        "TT": "2",
+        "Trình độ Tiếng Anh": "6.0",
+        "col_3": "79",
+        "Điểm quy đổi sang\nthang điểm 10": "9.0"
+      },
+      {
+        "TT": "3",
+        "Trình độ Tiếng Anh": "6.5",
+        "col_3": "88",
+        "Điểm quy đổi sang\nthang điểm 10": "9.5"
+      },
+      {
+        "TT": "4",
+        "Trình độ Tiếng Anh": "7.0",
+        "col_3": "96",
+        "Điểm quy đổi sang\nthang điểm 10": "10"
+      },
+      {
+        "TT": "5",
+        "Trình độ Tiếng Anh": "8.5",
+        "col_3": "114",
+        "Điểm quy đổi sang\nthang điểm 10": null
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "table_id": 1,
+    "headers": [
+      "TT",
+      "Mã xét\ntuyển",
+      "Tên ngành1 xét tuyển",
+      "Mã\nngành2",
+      "Tên chương trình đào tạo",
+      "Chỉ\ntiêu",
+      "Phương thức tuyển sinh",
+      "Ghi\nchú"
+    ],
+    "rows": [
+      {
+        "TT": "1.",
+        "Mã xét\ntuyển": "CN1",
+        "Tên ngành1 xét tuyển": "Công nghệ thông tin",
+        "Mã\nngành2": "7480201",
+        "Tên chương trình đào tạo": "Công nghệ thông tin",
+        "Chỉ\ntiêu": "420",
+        "Phương thức tuyển sinh": "Phương thức xét tuyển\nthẳng – Mã : 301\nPhương thức ĐGNL (HSA)\n– Mã : 401\nPhương thức CCQT SAT\n– Mã : 415\nPhương thức khác (DBDT...)\n– Mã : 500\nPhương thức THPT\n– Mã : 100\n– Tổ hợp: A00; A01; X06;\nX26; D01 (riêng D01 có\nToán hệ số 2)\nRiêng CN10 và CN21 thêm tổ\nhợp B00",
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "2.",
+        "Mã xét\ntuyển": "CN2",
+        "Tên ngành1 xét tuyển": "Kỹ thuật máy tính",
+        "Mã\nngành2": "7480106",
+        "Tên chương trình đào tạo": "Kỹ thuật máy tính",
+        "Chỉ\ntiêu": "420",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "3.",
+        "Mã xét\ntuyển": "CN3",
+        "Tên ngành1 xét tuyển": "Vật lý kỹ thuật",
+        "Mã\nngành2": "7520401",
+        "Tên chương trình đào tạo": "Vật lý kỹ thuật",
+        "Chỉ\ntiêu": "120",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "4.",
+        "Mã xét\ntuyển": "CN4",
+        "Tên ngành1 xét tuyển": "Cơ kỹ thuật",
+        "Mã\nngành2": "7520101",
+        "Tên chương trình đào tạo": "Cơ kỹ thuật",
+        "Chỉ\ntiêu": "60",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "5.",
+        "Mã xét\ntuyển": "CN5",
+        "Tên ngành1 xét tuyển": "Công nghệ kỹ thuật xây dựng",
+        "Mã\nngành2": "7510103",
+        "Tên chương trình đào tạo": "Công nghệ kỹ thuật xây dựng",
+        "Chỉ\ntiêu": "180",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "6.",
+        "Mã xét\ntuyển": "CN6",
+        "Tên ngành1 xét tuyển": "Công nghệ kỹ thuật cơ điện tử",
+        "Mã\nngành2": "7510203",
+        "Tên chương trình đào tạo": "Công nghệ kỹ thuật cơ điện tử",
+        "Chỉ\ntiêu": "180",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "7.",
+        "Mã xét\ntuyển": "CN7",
+        "Tên ngành1 xét tuyển": "Thí điểm",
+        "Mã\nngành2": "7519001",
+        "Tên chương trình đào tạo": "Công nghệ hàng không vũ trụ*",
+        "Chỉ\ntiêu": "120",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "8.",
+        "Mã xét\ntuyển": "CN8",
+        "Tên ngành1 xét tuyển": "Khoa học máy tính",
+        "Mã\nngành2": "7480101",
+        "Tên chương trình đào tạo": "Khoa học máy tính",
+        "Chỉ\ntiêu": "420",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "9.",
+        "Mã xét\ntuyển": "CN9",
+        "Tên ngành1 xét tuyển": "Công nghệ kỹ thuật điện tử –\nviễn thông",
+        "Mã\nngành2": "7510302",
+        "Tên chương trình đào tạo": "Công nghệ kỹ thuật điện tử – viễn thông/\nCông nghệ kỹ thuật điện tử – viễn thông định\nhướng chuyên ngành Thiết kế vi mạch",
+        "Chỉ\ntiêu": "480",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "10.",
+        "Mã xét\ntuyển": "CN10",
+        "Tên ngành1 xét tuyển": "Công nghệ nông nghiệp*",
+        "Mã\nngành2": "7519002",
+        "Tên chương trình đào tạo": "Công nghệ nông nghiệp*",
+        "Chỉ\ntiêu": "60",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "11.",
+        "Mã xét\ntuyển": "CN11",
+        "Tên ngành1 xét tuyển": "Kỹ thuật điều khiển và tự\nđộng hoá",
+        "Mã\nngành2": "7520216",
+        "Tên chương trình đào tạo": "Kỹ thuật điều khiển và tự động hoá",
+        "Chỉ\ntiêu": "120",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "12.",
+        "Mã xét\ntuyển": "CN12",
+        "Tên ngành1 xét tuyển": "Trí tuệ nhân tạo",
+        "Mã\nngành2": "7480107",
+        "Tên chương trình đào tạo": "Trí tuệ nhân tạo",
+        "Chỉ\ntiêu": "300",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "table_id": 1,
+    "headers": [
+      "TT",
+      "Mã xét\ntuyển",
+      "Tên ngành1 xét tuyển",
+      "Mã\nngành2",
+      "Tên chương trình đào tạo",
+      "Chỉ\ntiêu",
+      "Phương thức tuyển sinh",
+      "Ghi\nchú"
+    ],
+    "rows": [
+      {
+        "TT": "13.",
+        "Mã xét\ntuyển": "CN13",
+        "Tên ngành1 xét tuyển": "Kỹ thuật năng lượng*",
+        "Mã\nngành2": "7520406",
+        "Tên chương trình đào tạo": "Kỹ thuật năng lượng*",
+        "Chỉ\ntiêu": "60",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "14.",
+        "Mã xét\ntuyển": "CN14",
+        "Tên ngành1 xét tuyển": "Hệ thống thông tin",
+        "Mã\nngành2": "7480104",
+        "Tên chương trình đào tạo": "Hệ thống thông tin",
+        "Chỉ\ntiêu": "240",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "15.",
+        "Mã xét\ntuyển": "CN15",
+        "Tên ngành1 xét tuyển": "Mạng máy tính và truyền\nthông dữ liệu",
+        "Mã\nngành2": "7480102",
+        "Tên chương trình đào tạo": "Mạng máy tính và truyền thông dữ liệu",
+        "Chỉ\ntiêu": "120",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "16.",
+        "Mã xét\ntuyển": "CN17",
+        "Tên ngành1 xét tuyển": "Kỹ thuật Robot*",
+        "Mã\nngành2": "7520217",
+        "Tên chương trình đào tạo": "Kỹ thuật Robot*",
+        "Chỉ\ntiêu": "120",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "17.",
+        "Mã xét\ntuyển": "CN18",
+        "Tên ngành1 xét tuyển": "Thiết kế công nghiệp và Đồ\nhọa*",
+        "Mã\nngành2": "75290a1",
+        "Tên chương trình đào tạo": "Thiết kế công nghiệp và Đồ họa*",
+        "Chỉ\ntiêu": "240",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "18.",
+        "Mã xét\ntuyển": "CN19",
+        "Tên ngành1 xét tuyển": "Công nghệ vật liệu",
+        "Mã\nngành2": "7510402",
+        "Tên chương trình đào tạo": "Công nghệ vật liệu và Vi điện tử",
+        "Chỉ\ntiêu": "120",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "19.",
+        "Mã xét\ntuyển": "CN20",
+        "Tên ngành1 xét tuyển": "Khoa học dữ liệu",
+        "Mã\nngành2": "7460108",
+        "Tên chương trình đào tạo": "Khoa học và Kỹ thuật dữ liệu",
+        "Chỉ\ntiêu": "120",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      },
+      {
+        "TT": "20.",
+        "Mã xét\ntuyển": "CN21",
+        "Tên ngành1 xét tuyển": "Công nghệ sinh học",
+        "Mã\nngành2": "7420201",
+        "Tên chương trình đào tạo": "Công nghệ kỹ thuật sinh học",
+        "Chỉ\ntiêu": "120",
+        "Phương thức tuyển sinh": null,
+        "Ghi\nchú": null
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "table_id": 1,
+    "headers": [
+      "TT",
+      "Khung năng\nlực ngoại\nngữ",
+      "Trình độ Tiếng Anh",
+      null,
+      "Điểm cộng"
+    ],
+    "rows": [
+      {
+        "TT": null,
+        "Khung năng\nlực ngoại\nngữ": null,
+        "Trình độ Tiếng Anh": "IELTS\n(Academic)",
+        "col_4": "TOEFL iBT",
+        "Điểm cộng": null
+      },
+      {
+        "TT": "1",
+        "Khung năng\nlực ngoại\nngữ": "Bậc 4",
+        "Trình độ Tiếng Anh": "5.5",
+        "col_4": "72",
+        "Điểm cộng": "+ 1.0"
+      },
+      {
+        "TT": "2",
+        "Khung năng\nlực ngoại\nngữ": null,
+        "Trình độ Tiếng Anh": "6.0",
+        "col_4": "79",
+        "Điểm cộng": null
+      },
+      {
+        "TT": "3",
+        "Khung năng\nlực ngoại\nngữ": null,
+        "Trình độ Tiếng Anh": "6.5",
+        "col_4": "88",
+        "Điểm cộng": null
+      },
+      {
+        "TT": "4",
+        "Khung năng\nlực ngoại\nngữ": "Bậc 5",
+        "Trình độ Tiếng Anh": "7.0",
+        "col_4": "96",
+        "Điểm cộng": "+ 1.5"
+      },
+      {
+        "TT": "5",
+        "Khung năng\nlực ngoại\nngữ": "Bậc 6",
+        "Trình độ Tiếng Anh": "8.5",
+        "col_4": "114",
+        "Điểm cộng": "+ 2.0"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "table_id": 1,
+    "headers": [
+      "TT",
+      "Môn thi đạt giải",
+      "Ngành phù hợp được cộng điểm"
+    ],
+    "rows": [
+      {
+        "TT": "1",
+        "Môn thi đạt giải": "Toán",
+        "Ngành phù hợp được cộng điểm": "Tất cả các ngành"
+      },
+      {
+        "TT": "2",
+        "Môn thi đạt giải": "Tin học",
+        "Ngành phù hợp được cộng điểm": "Tất cả các ngành"
+      },
+      {
+        "TT": "3",
+        "Môn thi đạt giải": "Vật lý",
+        "Ngành phù hợp được cộng điểm": "Tất cả các ngành"
+      },
+      {
+        "TT": "4",
+        "Môn thi đạt giải": "Hóa học",
+        "Ngành phù hợp được cộng điểm": "Tất cả các ngành"
+      },
+      {
+        "TT": "5",
+        "Môn thi đạt giải": "Sinh học",
+        "Ngành phù hợp được cộng điểm": "Công nghệ nông nghiệp; Công nghệ sinh học"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "table_id": 1,
+    "headers": [
+      "STT",
+      "Tên ngành/chương trình",
+      "Mã\nxét tuyển",
+      "Chỉ\ntiêu",
+      "Ngưỡng đầu\nvào 2024"
+    ],
+    "rows": [
+      {
+        "STT": "1.",
+        "Tên ngành/chương trình": "Công nghệ thông tin",
+        "Mã\nxét tuyển": "CN1",
+        "Chỉ\ntiêu": "3",
+        "Ngưỡng đầu\nvào 2024": "22"
+      },
+      {
+        "STT": "2.",
+        "Tên ngành/chương trình": "Kỹ thuật máy tính",
+        "Mã\nxét tuyển": "CN2",
+        "Chỉ\ntiêu": "3",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "3.",
+        "Tên ngành/chương trình": "Vật lý kỹ thuật",
+        "Mã\nxét tuyển": "CN3",
+        "Chỉ\ntiêu": "3",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "4.",
+        "Tên ngành/chương trình": "Cơ kỹ thuật",
+        "Mã\nxét tuyển": "CN4",
+        "Chỉ\ntiêu": "1",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "5.",
+        "Tên ngành/chương trình": "Công nghệ kỹ thuật cơ điện tử",
+        "Mã\nxét tuyển": "CN6",
+        "Chỉ\ntiêu": "2",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "6.",
+        "Tên ngành/chương trình": "Công nghệ hàng không vũ trụ",
+        "Mã\nxét tuyển": "CN7",
+        "Chỉ\ntiêu": "2",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "7.",
+        "Tên ngành/chương trình": "Khoa học máy tính",
+        "Mã\nxét tuyển": "CN8",
+        "Chỉ\ntiêu": "3",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "8.",
+        "Tên ngành/chương trình": "Công nghệ kỹ thuật điện tử - viễn\nthông",
+        "Mã\nxét tuyển": "CN9",
+        "Chỉ\ntiêu": "3",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "9.",
+        "Tên ngành/chương trình": "Kỹ thuật điều khiển và tự động hóa",
+        "Mã\nxét tuyển": "CN11",
+        "Chỉ\ntiêu": "2",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "10.",
+        "Tên ngành/chương trình": "Trí tuệ nhân tạo",
+        "Mã\nxét tuyển": "CN12",
+        "Chỉ\ntiêu": "3",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "11.",
+        "Tên ngành/chương trình": "Kỹ thuật năng lượng",
+        "Mã\nxét tuyển": "CN13",
+        "Chỉ\ntiêu": "2",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "12.",
+        "Tên ngành/chương trình": "Hệ thống thông tin",
+        "Mã\nxét tuyển": "CN14",
+        "Chỉ\ntiêu": "2",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "13.",
+        "Tên ngành/chương trình": "Mạng máy tính và truyền thông dữ\nliệu",
+        "Mã\nxét tuyển": "CN15",
+        "Chỉ\ntiêu": "1",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "14.",
+        "Tên ngành/chương trình": "Kỹ thuật Robot",
+        "Mã\nxét tuyển": "CN17",
+        "Chỉ\ntiêu": "2",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "15.",
+        "Tên ngành/chương trình": "Thiết kế công nghiệp và đồ họa",
+        "Mã\nxét tuyển": "CN18",
+        "Chỉ\ntiêu": "2",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": "16.",
+        "Tên ngành/chương trình": "Công nghệ kỹ thuật xây dựng",
+        "Mã\nxét tuyển": "CN5",
+        "Chỉ\ntiêu": "2",
+        "Ngưỡng đầu\nvào 2024": "20"
+      },
+      {
+        "STT": "17.",
+        "Tên ngành/chương trình": "Công nghệ nông nghiệp",
+        "Mã\nxét tuyển": "CN10",
+        "Chỉ\ntiêu": "1",
+        "Ngưỡng đầu\nvào 2024": null
+      },
+      {
+        "STT": null,
+        "Tên ngành/chương trình": "Tổng:",
+        "Mã\nxét tuyển": null,
+        "Chỉ\ntiêu": "37",
+        "Ngưỡng đầu\nvào 2024": null
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "table_id": 1,
+    "headers": [
+      "STT",
+      "Mã\ntuyển sinh",
+      "Ngành/chương trình",
+      "Học phí\nnăm học 2025-2026"
+    ],
+    "rows": [
+      {
+        "STT": "1",
+        "Mã\ntuyển sinh": "CN1",
+        "Ngành/chương trình": "Công nghệ thông tin",
+        "Học phí\nnăm học 2025-2026": "40,000,000"
+      },
+      {
+        "STT": "2",
+        "Mã\ntuyển sinh": "CN2",
+        "Ngành/chương trình": "Kỹ thuật máy tính",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "3",
+        "Mã\ntuyển sinh": "CN3",
+        "Ngành/chương trình": "Vật lý kỹ thuật",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "4",
+        "Mã\ntuyển sinh": "CN4",
+        "Ngành/chương trình": "Cơ kỹ thuật",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "5",
+        "Mã\ntuyển sinh": "CN5",
+        "Ngành/chương trình": "Công nghệ kỹ thuật xây dựng",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "6",
+        "Mã\ntuyển sinh": "CN6",
+        "Ngành/chương trình": "Công nghệ kỹ thuật cơ điện tử",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "7",
+        "Mã\ntuyển sinh": "CN7",
+        "Ngành/chương trình": "Công nghệ hàng không vũ trụ",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "8",
+        "Mã\ntuyển sinh": "CN8",
+        "Ngành/chương trình": "Khoa học máy tính",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "9",
+        "Mã\ntuyển sinh": "CN9",
+        "Ngành/chương trình": "Công nghệ kỹ thuật điện tử - viễn thông",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "10",
+        "Mã\ntuyển sinh": "CN13",
+        "Ngành/chương trình": "Kỹ thuật năng lượng",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "11",
+        "Mã\ntuyển sinh": "CN14",
+        "Ngành/chương trình": "Hệ thống thông tin",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "12",
+        "Mã\ntuyển sinh": "CN15",
+        "Ngành/chương trình": "Mạng máy tính và truyền thông dữ liệu",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "13",
+        "Mã\ntuyển sinh": "CN17",
+        "Ngành/chương trình": "Kỹ thuật Robot",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "14",
+        "Mã\ntuyển sinh": "CN10",
+        "Ngành/chương trình": "Công nghệ nông nghiệp",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "15",
+        "Mã\ntuyển sinh": "CN11",
+        "Ngành/chương trình": "Kỹ thuật điều khiển và tự động hóa",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "16",
+        "Mã\ntuyển sinh": "CN12",
+        "Ngành/chương trình": "Trí tuệ nhân tạo",
+        "Học phí\nnăm học 2025-2026": "34,000,000"
+      },
+      {
+        "STT": "17",
+        "Mã\ntuyển sinh": "CN18",
+        "Ngành/chương trình": "Thiết kế công nghiệp và đồ họa",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "18",
+        "Mã\ntuyển sinh": "CN19",
+        "Ngành/chương trình": "Công nghệ vật liệu và Vi điện tử",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "19",
+        "Mã\ntuyển sinh": "CN20",
+        "Ngành/chương trình": "Khoa học và Kỹ thuật dữ liệu",
+        "Học phí\nnăm học 2025-2026": null
+      },
+      {
+        "STT": "20",
+        "Mã\ntuyển sinh": "CN21",
+        "Ngành/chương trình": "Công nghệ kỹ thuật sinh học",
+        "Học phí\nnăm học 2025-2026": null
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "table_id": 1,
+    "headers": [
+      "STT",
+      "Mã\nXét\ntuyển",
+      "Mã ngành",
+      "Ngành/chương trình đào tạo",
+      "Năm 2023",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Năm 2024",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "rows": [
+      {
+        "STT": null,
+        "Mã\nXét\ntuyển": null,
+        "Mã ngành": null,
+        "Ngành/chương trình đào tạo": null,
+        "Năm 2023": "Chỉ\ntiêu",
+        "col_6": "Nhập\nhọc",
+        "col_7": "SAT/\nACT",
+        "col_8": "ĐGNL",
+        "col_9": "IELTS",
+        "col_10": "THPT",
+        "Năm 2024": "Chỉ\ntiêu",
+        "col_12": "Nhập\nhọc",
+        "col_13": "SAT",
+        "col_14": "Alevel\n/ACT",
+        "col_15": "ĐGNL",
+        "col_16": "IELTS",
+        "col_17": "THPT"
+      },
+      {
+        "STT": "1",
+        "Mã\nXét\ntuyển": "CN1",
+        "Mã ngành": "7480201",
+        "Ngành/chương trình đào tạo": "Công nghệ thông tin",
+        "Năm 2023": "180",
+        "col_6": "173",
+        "col_7": "27.5",
+        "col_8": "25",
+        "col_9": "28",
+        "col_10": "27.85",
+        "Năm 2024": "340",
+        "col_12": "360",
+        "col_13": "28",
+        "col_14": "-",
+        "col_15": "23,5",
+        "col_16": "27",
+        "col_17": "27,8"
+      },
+      {
+        "STT": "2",
+        "Mã\nXét\ntuyển": "CN10",
+        "Mã ngành": "7519002",
+        "Ngành/chương trình đào tạo": "Công nghệ nông nghiệp",
+        "Năm 2023": "60",
+        "col_6": "51",
+        "col_7": "25",
+        "col_8": "19",
+        "col_9": "22",
+        "col_10": "22",
+        "Năm 2024": "60",
+        "col_12": "51",
+        "col_13": "23,4",
+        "col_14": "-",
+        "col_15": "17",
+        "col_16": "23",
+        "col_17": "22,5"
+      },
+      {
+        "STT": "3",
+        "Mã\nXét\ntuyển": "CN11",
+        "Mã ngành": "7520216",
+        "Ngành/chương trình đào tạo": "Kỹ thuật điều khiển và tự động hoá",
+        "Năm 2023": "80",
+        "col_6": "83",
+        "col_7": "26",
+        "col_8": "23.5",
+        "col_9": "27",
+        "col_10": "27.1",
+        "Năm 2024": "160",
+        "col_12": "171",
+        "col_13": "27",
+        "col_14": "-",
+        "col_15": "22",
+        "col_16": "26.5",
+        "col_17": "27,05"
+      },
+      {
+        "STT": "4",
+        "Mã\nXét\ntuyển": "CN12",
+        "Mã ngành": "7480107",
+        "Ngành/chương trình đào tạo": "Trí tuệ nhân tạo",
+        "Năm 2023": "130",
+        "col_6": "118",
+        "col_7": "27.25",
+        "col_8": "24",
+        "col_9": "27.5",
+        "col_10": "27.2",
+        "Năm 2024": "240",
+        "col_12": "242",
+        "col_13": "27,75",
+        "col_14": "26,5",
+        "col_15": "22",
+        "col_16": "27",
+        "col_17": "27,12"
+      },
+      {
+        "STT": "5",
+        "Mã\nXét\ntuyển": "CN13",
+        "Mã ngành": "7520406",
+        "Ngành/chương trình đào tạo": "Kỹ thuật năng lượng",
+        "Năm 2023": "60",
+        "col_6": "55",
+        "col_7": "25",
+        "col_8": "20",
+        "col_9": "25",
+        "col_10": "23.8",
+        "Năm 2024": "80",
+        "col_12": "97",
+        "col_13": "23,4",
+        "col_14": "-",
+        "col_15": "17",
+        "col_16": "23",
+        "col_17": "24,59"
+      },
+      {
+        "STT": "6",
+        "Mã\nXét\ntuyển": "CN14",
+        "Mã ngành": "7480104",
+        "Ngành/chương trình đào tạo": "Hệ thống thông tin",
+        "Năm 2023": "60",
+        "col_6": "72",
+        "col_7": "26.25",
+        "col_8": "23",
+        "col_9": "26.25",
+        "col_10": "26.95",
+        "Năm 2024": "160",
+        "col_12": "158",
+        "col_13": "24",
+        "col_14": "-",
+        "col_15": "20",
+        "col_16": "25",
+        "col_17": "26,87"
+      },
+      {
+        "STT": "7",
+        "Mã\nXét\ntuyển": "CN15",
+        "Mã ngành": "7480102",
+        "Ngành/chương trình đào tạo": "Mạng máy tính và truyền thông dữ\nliệu",
+        "Năm 2023": "60",
+        "col_6": "65",
+        "col_7": "26.25",
+        "col_8": "23",
+        "col_9": "26.25",
+        "col_10": "26.25",
+        "Năm 2024": "80",
+        "col_12": "84",
+        "col_13": "24",
+        "col_14": "-",
+        "col_15": "20",
+        "col_16": "25",
+        "col_17": "26,92"
+      },
+      {
+        "STT": "8",
+        "Mã\nXét\ntuyển": "CN16",
+        "Mã ngành": "7480201",
+        "Ngành/chương trình đào tạo": "CNTT định hướng thị trường Nhật\nBản",
+        "Năm 2023": "60",
+        "col_6": "68",
+        "col_7": "27.5",
+        "col_8": "23.25",
+        "col_9": "27",
+        "col_10": "27.5",
+        "Năm 2024": "-",
+        "col_12": "-",
+        "col_13": "-",
+        "col_14": "-",
+        "col_15": "-",
+        "col_16": "-",
+        "col_17": "-"
+      },
+      {
+        "STT": "9",
+        "Mã\nXét\ntuyển": "CN17",
+        "Mã ngành": "7520217",
+        "Ngành/chương trình đào tạo": "Kỹ thuật Robot",
+        "Năm 2023": "60",
+        "col_6": "60",
+        "col_7": "27",
+        "col_8": "22.5",
+        "col_9": "25.5",
+        "col_10": "25.35",
+        "Năm 2024": "80",
+        "col_12": "82",
+        "col_13": "23,4",
+        "col_14": "-",
+        "col_15": "19",
+        "col_16": "24",
+        "col_17": "25,99"
+      },
+      {
+        "STT": "10",
+        "Mã\nXét\ntuyển": "CN18",
+        "Mã ngành": "75290a1",
+        "Ngành/chương trình đào tạo": "Thiết kế công nghiệp và đồ họa",
+        "Năm 2023": "-",
+        "col_6": "-",
+        "col_7": "-",
+        "col_8": "-",
+        "col_9": "-",
+        "col_10": "-",
+        "Năm 2024": "160",
+        "col_12": "162",
+        "col_13": "23,4",
+        "col_14": "-",
+        "col_15": "18",
+        "col_16": "24",
+        "col_17": "24,64"
+      },
+      {
+        "STT": "11",
+        "Mã\nXét\ntuyển": "CN2",
+        "Mã ngành": "7480106",
+        "Ngành/chương trình đào tạo": "Kỹ thuật máy tính",
+        "Năm 2023": "120",
+        "col_6": "118",
+        "col_7": "26.25",
+        "col_8": "23.5",
+        "col_9": "27",
+        "col_10": "27.25",
+        "Năm 2024": "320",
+        "col_12": "325",
+        "col_13": "26,25",
+        "col_14": "-",
+        "col_15": "20",
+        "col_16": "26.5",
+        "col_17": "26,97"
+      },
+      {
+        "STT": "12",
+        "Mã\nXét\ntuyển": "CN3",
+        "Mã ngành": "7520401",
+        "Ngành/chương trình đào tạo": "Vật lý kỹ thuật",
+        "Năm 2023": "80",
+        "col_6": "80",
+        "col_7": "25",
+        "col_8": "20",
+        "col_9": "24",
+        "col_10": "24.2",
+        "Năm 2024": "120",
+        "col_12": "128",
+        "col_13": "23,4",
+        "col_14": "-",
+        "col_15": "17",
+        "col_16": "23",
+        "col_17": "25,24"
+      },
+      {
+        "STT": "13",
+        "Mã\nXét\ntuyển": "CN4",
+        "Mã ngành": "7520101",
+        "Ngành/chương trình đào tạo": "Cơ kỹ thuật",
+        "Năm 2023": "80",
+        "col_6": "68",
+        "col_7": "25",
+        "col_8": "21",
+        "col_9": "25",
+        "col_10": "25.65",
+        "Năm 2024": "80",
+        "col_12": "77",
+        "col_13": "23,4",
+        "col_14": "-",
+        "col_15": "17",
+        "col_16": "23",
+        "col_17": "26,03"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "table_id": 1,
+    "headers": [
+      "STT",
+      "Mã\nXét\ntuyển",
+      "Mã ngành",
+      "Ngành/chương trình đào tạo",
+      "Năm 2023",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Năm 2024",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "rows": [
+      {
+        "STT": null,
+        "Mã\nXét\ntuyển": null,
+        "Mã ngành": null,
+        "Ngành/chương trình đào tạo": null,
+        "Năm 2023": "Chỉ\ntiêu",
+        "col_6": "Nhập\nhọc",
+        "col_7": "SAT/\nACT",
+        "col_8": "ĐGNL",
+        "col_9": "IELTS",
+        "col_10": "THPT",
+        "Năm 2024": "Chỉ\ntiêu",
+        "col_12": "Nhập\nhọc",
+        "col_13": "SAT",
+        "col_14": "Alevel\n/ACT",
+        "col_15": "ĐGNL",
+        "col_16": "IELTS",
+        "col_17": "THPT"
+      },
+      {
+        "STT": "14",
+        "Mã\nXét\ntuyển": "CN5",
+        "Mã ngành": "7510103",
+        "Ngành/chương trình đào tạo": "Công nghệ kỹ thuật xây dựng",
+        "Năm 2023": "150",
+        "col_6": "140",
+        "col_7": "25",
+        "col_8": "20",
+        "col_9": "22",
+        "col_10": "23.1",
+        "Năm 2024": "160",
+        "col_12": "138",
+        "col_13": "23,4",
+        "col_14": "-",
+        "col_15": "17",
+        "col_16": "23",
+        "col_17": "23,91"
+      },
+      {
+        "STT": "15",
+        "Mã\nXét\ntuyển": "CN6",
+        "Mã ngành": "7510203",
+        "Ngành/chương trình đào tạo": "Công nghệ kỹ thuật cơ – điện tử",
+        "Năm 2023": "150",
+        "col_6": "166",
+        "col_7": "25",
+        "col_8": "21.5",
+        "col_9": "25",
+        "col_10": "25",
+        "Năm 2024": "160",
+        "col_12": "163",
+        "col_13": "23,4",
+        "col_14": "-",
+        "col_15": "20",
+        "col_16": "24",
+        "col_17": "26,27"
+      },
+      {
+        "STT": "16",
+        "Mã\nXét\ntuyển": "CN7",
+        "Mã ngành": "7519001",
+        "Ngành/chương trình đào tạo": "Công nghệ hàng không vũ trụ",
+        "Năm 2023": "90",
+        "col_6": "79",
+        "col_7": "26",
+        "col_8": "21",
+        "col_9": "25",
+        "col_10": "24.1",
+        "Năm 2024": "120",
+        "col_12": "121",
+        "col_13": "23,4",
+        "col_14": "-",
+        "col_15": "17",
+        "col_16": "23",
+        "col_17": "24,61"
+      },
+      {
+        "STT": "17",
+        "Mã\nXét\ntuyển": "CN8",
+        "Mã ngành": "7480101",
+        "Ngành/chương trình đào tạo": "Khoa học Máy tính",
+        "Năm 2023": "280",
+        "col_6": "290",
+        "col_7": "27",
+        "col_8": "24",
+        "col_9": "27.25",
+        "col_10": "27.25",
+        "Năm 2024": "320",
+        "col_12": "323",
+        "col_13": "27,15",
+        "col_14": "26,5",
+        "col_15": "22",
+        "col_16": "27",
+        "col_17": "27,58"
+      },
+      {
+        "STT": "18",
+        "Mã\nXét\ntuyển": "CN9",
+        "Mã ngành": "7510302",
+        "Ngành/chương trình đào tạo": "Công nghệ kỹ thuật điện tử – viễn\nthông",
+        "Năm 2023": "150",
+        "col_6": "178",
+        "col_7": "26",
+        "col_8": "22.5",
+        "col_9": "25.5",
+        "col_10": "25.15",
+        "Năm 2024": "320",
+        "col_12": "329",
+        "col_13": "24",
+        "col_14": "-",
+        "col_15": "20",
+        "col_16": "25",
+        "col_17": "26,3"
+      },
+      {
+        "STT": "19",
+        "Mã\nXét\ntuyển": "CN19",
+        "Mã ngành": "7510402",
+        "Ngành/chương trình đào tạo": "Công nghệ vật liệu và Vi điện tử",
+        "Năm 2023": "-",
+        "col_6": "-",
+        "col_7": "-",
+        "col_8": "-",
+        "col_9": "-",
+        "col_10": "-",
+        "Năm 2024": "-",
+        "col_12": "-",
+        "col_13": "-",
+        "col_14": "-",
+        "col_15": "-",
+        "col_16": "-",
+        "col_17": "-"
+      },
+      {
+        "STT": "20",
+        "Mã\nXét\ntuyển": "CN20",
+        "Mã ngành": "7460108",
+        "Ngành/chương trình đào tạo": "Khoa học và Kỹ thuật dữ liệu",
+        "Năm 2023": "-",
+        "col_6": "-",
+        "col_7": "-",
+        "col_8": "-",
+        "col_9": "-",
+        "col_10": "-",
+        "Năm 2024": "-",
+        "col_12": "-",
+        "col_13": "-",
+        "col_14": "-",
+        "col_15": "-",
+        "col_16": "-",
+        "col_17": "-"
+      },
+      {
+        "STT": "21",
+        "Mã\nXét\ntuyển": "CN21",
+        "Mã ngành": "7420201",
+        "Ngành/chương trình đào tạo": "Công nghệ kỹ thuật sinh học",
+        "Năm 2023": "-",
+        "col_6": "-",
+        "col_7": "-",
+        "col_8": "-",
+        "col_9": "-",
+        "col_10": "-",
+        "Năm 2024": "-",
+        "col_12": "-",
+        "col_13": "-",
+        "col_14": "-",
+        "col_15": "-",
+        "col_16": "-",
+        "col_17": "-"
+      },
+      {
+        "STT": "22",
+        "Mã\nXét\ntuyển": "CN9",
+        "Mã ngành": "7510302",
+        "Ngành/chương trình đào tạo": "Công nghệ kỹ thuật điện tử – viễn\nthông định hướng Thiết kế vi mạch",
+        "Năm 2023": "-",
+        "col_6": "-",
+        "col_7": "-",
+        "col_8": "-",
+        "col_9": "-",
+        "col_10": "-",
+        "Năm 2024": "-",
+        "col_12": "-",
+        "col_13": "-",
+        "col_14": "-",
+        "col_15": "-",
+        "col_16": "-",
+        "col_17": "-"
+      }
+    ]
+  }
+]

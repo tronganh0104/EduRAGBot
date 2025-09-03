@@ -1,9 +1,9 @@
-from data_processor import load_raw, split_chunks, clean_text, metadata, split_chunks_by_structure
+from data_processor import load_raw, clean_text, metadata, split_chunks_by_structure
 from embedding import load_embedding, embed_documents
 from vector_store import save_faiss_index
 import numpy as np
 
-file_path = "backend\\data\\raw\\Quy-chế-ĐTĐH-3626.txt"
+file_path = "backend\\data\\raw\\quy_che_cong_tac_sinh_vien.txt"
 
 raw_text = load_raw(file_path)
 print(raw_text[:1000])
@@ -30,7 +30,7 @@ for i, doc in enumerate(docs[:10]):
     print(f"Metadata: {doc['metadata']}")
 
 
-model = load_embedding()
+model = load_embedding("backend\data\dpr-phobert-augmented")
 vectors = embed_documents(model, docs)
 vectors = np.array(vectors)
 

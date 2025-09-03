@@ -2,7 +2,7 @@ import faiss
 import numpy as np
 import pickle
 
-def save_faiss_index(vectors, docs, index_path="backend/data/process/index.faiss", doc_path="backend/data/process/docs.pkl"):
+def save_faiss_index(vectors, docs, index_path="backend/data/process/index_1.faiss", doc_path="backend/data/process/index_1.pkl"):
     dim = vectors.shape[1]
     index = faiss.IndexFlatL2(dim)
     index.add(vectors)
