@@ -1,0 +1,15 @@
+{
+    "index_path": "C:/Users/Admin/Downloads/model/vector_stores/vs_tuyensinh/index.faiss",
+    "docs_path": "C:/Users/Admin/Downloads/model/vector_stores/vs_tuyensinh/docs.pkl",
+    "parent_docs_path": null,
+    "question_encoder_path": "C:/Users/Admin/Downloads/model/models/dpr_tuyensinh/",
+    "reranker_model": "BAAI/bge-reranker-base",
+    "strategy_config": {
+        "Definition": {"k": 4, "top_n": 2},
+        "Factoid":    {"k": 4, "top_n": 2},
+        "Yes/No":     {"k": 5, "top_n": 2},
+        "List":       {"k": 7, "top_n": 4},
+        "Inference":  {"k": 10, "top_n": 4}
+    },
+    "relevance_similarity_threshold": 0.37
+}

@@ -18,6 +18,10 @@ MAIN_CONFIG = {
     "qctdkt": {
         "config_path": "retrieval/configs/qctdkt_config.json",
         "name": "Thi đua Khen thưởng"
+    },
+    "tuyensinh": {
+        "config_path": "retrieval/configs/tuyensinh_config.json",
+        "name": "Tuyển sinh"
     }
 }
 
@@ -60,7 +64,25 @@ if __name__ == '__main__':
             print("   -> Không tìm thấy thông tin phù hợp trong kho tri thức.")
         else:
             for i, doc_data in enumerate(final_context):
-                print(f"\n---------- NGUỒN THÔNG TIN #{i+1} ----------")
-                print(f"Metadata: {doc_data['metadata']}")
-                print(f"\nNội dung:\n{doc_data['content']}")
+                metadata = doc_data.get('metadata', {})
+                content = doc_data.get('content', 'N/A')
+                source = metadata.get('source_document', '')
+
+                print(f"\n---------- NGUỒN THÔNG TIN #{i+1} ----------")                                
+                if 'tuyển sinh' in source.lower():                    
+                    print(metadata)
+
+                else:                    
+                    article_title = metadata.get('article_title', 'Không rõ')
+                    article_number = metadata.get('parent_article_number') or metadata.get('article_number')
+                    clause_number = metadata.get('clause_number')
+
+                    location_str = f"Điều {article_number}"
+                    if clause_number:
+                        location_str += f", Khoản {clause_number}"
+                    
+                    print(f"Nguồn: {source}")
+                    print(f"   - Trích từ: {location_str} - {article_title}")
+                
+                print(f"\nNội dung:\n{content}")
                 print("-"*(40 + len(str(i+1))))

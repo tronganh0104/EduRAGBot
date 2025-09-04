@@ -121,6 +121,10 @@ if __name__ == '__main__':
             print("--> Không tìm thấy thông tin liên quan.")
         else:
             for i, doc in enumerate(ket_qua):
-                print(f"  --- Document {i+1} ---")
+                print(f"  --- Document {i+1} ---")            
+                metadata = doc.metadata
+                source = metadata.get('source_document', 'Không rõ nguồn')
+                article_title = metadata.get('article_title', 'Không rõ tiêu đề')
+                print(f"  Nguồn: {source}")
+                print(f"  Tiêu đề Điều: {article_title}")
                 print(f"  Nội dung: {doc.page_content}")
-                print(f"  Metadata: {doc.metadata}")

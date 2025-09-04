@@ -1,7 +1,7 @@
 {
-  "index_path": "../vector_stores/vs_qctdkt/index.faiss",
-  "docs_path": "../vector_stores/vs_qctdkt/child_docs.pkl",
-  "parent_docs_path": "../vector_stores/vs_qctdkt/parent_docs.pkl",
+  "index_path": "C:/Users/Admin/Downloads/model/vector_stores/vs_qctdkt/index.faiss",
+  "docs_path": "C:/Users/Admin/Downloads/model/vector_stores/vs_qctdkt/child_docs.pkl",
+  "parent_docs_path": "C:/Users/Admin/Downloads/model/vector_stores/vs_qctdkt/parent_docs.pkl",
   "question_encoder_path": "C:/Users/Admin/Downloads/model/models/dpr_qctdkt/",
   "reranker_model": "BAAI/bge-reranker-base",
   "strategy_config": {
@@ -19,11 +19,11 @@
     },
     "List": {
       "k": 7,
-      "top_n": 3
+      "top_n": 2
     },
     "Inference": {
       "k": 10,
-      "top_n": 3
+      "top_n": 2
     }
   },
   "relevance_similarity_threshold": 0.37
