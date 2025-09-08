@@ -1,4 +1,4 @@
-export const BACKEND_URL = "https://e3f2bb31d98a.ngrok-free.app"    ; 
+export const BACKEND_URL = "https://fd485e8f3938.ngrok-free.app"    ; 
 
 export const AI_MODELS = [
     {
@@ -20,5 +20,10 @@ export const AI_MODELS = [
       id: "Qwen3 14B API",
       name: "Qwen3 14B API",
       color: "bg-red-500",
-    }
+    },
+    {
+      id: "GPT OSS 20B API",
+      name: "GPT OSS 20B API",
+      color: "bg-blue-500",
+    },
   ]
