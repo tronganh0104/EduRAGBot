@@ -1,8 +1,8 @@
 {
-    "index_path": "C:/Users/Admin/Downloads/model/vector_stores/vs_tuyensinh/index.faiss",
-    "docs_path": "C:/Users/Admin/Downloads/model/vector_stores/vs_tuyensinh/docs.pkl",
-    "parent_docs_path": null,
-    "question_encoder_path": "C:/Users/Admin/Downloads/model/models/dpr_tuyensinh/",
+    "index_path": "/kaggle/input/database-ver-10/vs_tuyensinh/index.faiss",
+    "docs_path": "/kaggle/input/database-ver-10/vs_tuyensinh/docs.pkl",
+    "question_encoder_path": "/kaggle/input/qcctsv_model/pytorch/default/3/models/dpr_tuyensinh",
+    "question_classifier_path": "/kaggle/input/classifier-model-ver-2/transformers/default/1/question_classifier",
     "reranker_model": "BAAI/bge-reranker-base",
     "strategy_config": {
         "Definition": {"k": 4, "top_n": 2},
@@ -11,5 +11,5 @@
         "List":       {"k": 7, "top_n": 4},
         "Inference":  {"k": 10, "top_n": 4}
     },
-    "relevance_similarity_threshold": 0.37
+    "relevance_similarity_threshold": 0.71
 }

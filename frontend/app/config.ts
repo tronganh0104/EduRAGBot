@@ -1,4 +1,4 @@
-export const BACKEND_URL = "https://40f8b9eb6cc1.ngrok-free.app"    ; 
+export const BACKEND_URL = "https://9cd6061a852c.ngrok-free.app"    ; 
 
 export const AI_MODELS = [
     {

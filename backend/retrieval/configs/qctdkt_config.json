@@ -1,30 +1,15 @@
 {
-  "index_path": "../vector_stores/vs_qctdkt/index.faiss",
-  "docs_path": "../vector_stores/vs_qctdkt/child_docs.pkl",
-  "parent_docs_path": "../vector_stores/vs_qctdkt/parent_docs.pkl",
-  "question_encoder_path": "C:/Users/Admin/Downloads/model/models/dpr_qctdkt/",
+  "index_path": "/kaggle/input/database-ver-11/vs_qctdkt_o/vs_qctdkt_o/index.faiss",
+  "docs_path": "/kaggle/input/database-ver-11/vs_qctdkt_o/vs_qctdkt_o/docs.pkl",
+  "question_encoder_path": "/kaggle/input/qcctsv_model/pytorch/default/4/models/dpr_merge",
+  "question_classifier_path": "/kaggle/input/classifier-model-ver-2/transformers/default/1/question_classifier",
   "reranker_model": "BAAI/bge-reranker-base",
   "strategy_config": {
-    "Definition": {
-      "k": 4,
-      "top_n": 1
-    },
-    "Factoid": {
-      "k": 4,
-      "top_n": 1
-    },
-    "Yes/No": {
-      "k": 5,
-      "top_n": 2
-    },
-    "List": {
-      "k": 7,
-      "top_n": 3
-    },
-    "Inference": {
-      "k": 10,
-      "top_n": 3
-    }
+      "Definition": {"k": 4, "top_n": 1},
+      "Factoid": {"k": 4, "top_n": 2},
+      "Yes/No": {"k": 5, "top_n": 3},
+      "List": {"k": 7, "top_n": 3},
+      "Inference": {"k": 10, "top_n": 3}
   },
-  "relevance_similarity_threshold": 0.37
+  "relevance_similarity_threshold": 0.22689
 }

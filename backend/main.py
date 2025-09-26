@@ -2,10 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from llm.model import generate_answer
-from retrieval.query_system import QuerySystem
-from retrieval.config import CONFIG
 import uuid
-
+from typing import List
 app = FastAPI()
 
 app.add_middleware(
@@ -16,10 +14,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# rag_system = RAGSystem(MAIN_CONFIG)
+
 class QuestionRequest(BaseModel):
     question: str
     context: str = ""
-    model: str = ""
+    model: str = "Qwen3 4B"
 
 class Reference(BaseModel):
     id: str
@@ -27,20 +27,9 @@ class Reference(BaseModel):
 
 class AnswerResponse(BaseModel):
     answer: str
-    references: list[Reference]
-
-query_system = QuerySystem(CONFIG)
+    references: List[Reference]
 
 @app.post("/ask", response_model=AnswerResponse)
 async def ask(request: QuestionRequest):
-    retrieved_docs = query_system.query(request.question)
-
-    context = request.context + "\n\nThông tin liên quan từ tài liệu:\n"
-    references = []
-    for i, doc in enumerate(retrieved_docs):
-        context += f"Chunk {i+1}: {doc.page_content}\n\n"
-        print(f"Chunk {i+1}: {doc.page_content}")
-        references.append(Reference(id=str(uuid.uuid4()), content=doc.page_content))
-    
-    answer = generate_answer(request.question, context)
-    return {"answer": answer, "references": references}
+    result = generate_answer(request.question, model_name=request.model)
+    return AnswerResponse(answer=result["answer"], references=result["references"])

@@ -10,7 +10,8 @@ from retrieval.DprAdaptiveQuerySystem import DprAdaptiveQuerySystem
 ROUTER_CONFIG = {
     "qcdt": { "config_path": "../retrieval/configs/qcdt_config.json" },
     "qcctsv": { "config_path": "../retrieval/configs/qcctsv_config.json" },
-    "qctdkt": { "config_path": "../retrieval/configs/qctdkt_config.json" }
+    "qctdkt": { "config_path": "../retrieval/configs/qctdkt_config.json" },
+    "tuyensinh": { "config_path": "../retrieval/configs/tuyensinh_config.json" }
 }
 
 class MainQueryRouterLLM:
@@ -19,10 +20,23 @@ class MainQueryRouterLLM:
         self.query_systems: Dict[str, DprAdaptiveQuerySystem] = {}
         for topic_key, topic_config in self.config.items():
             try:
-                with open(topic_config["config_path"], 'r', encoding='utf-8') as f:
+                # Load per-topic retrieval config from JSON path
+                config_path = topic_config.get('config_path')
+                if not config_path:
+                    raise ValueError("Thiếu 'config_path' trong cấu hình topic")
+
+                # Resolve config path robustly
+                cfg = config_path
+                if not os.path.isabs(cfg):
+                    base_dir = os.path.dirname(__file__)
+                    candidate_paths = [
+                        os.path.abspath(os.path.join(base_dir, cfg)),
+                        os.path.abspath(os.path.join(base_dir, '..', cfg)),
+                    ]
+                    cfg = next((p for p in candidate_paths if os.path.exists(p)), candidate_paths[0])
+
+                with open(cfg, 'r', encoding='utf-8') as f:
                     specific_config = json.load(f)
-                
-                # Ánh xạ topic_key sang tên đầy đủ
                 topic_name = self._get_topic_name(topic_key)                                
                 self.query_systems[topic_name] = DprAdaptiveQuerySystem(specific_config)
             except Exception as e:
@@ -30,7 +44,7 @@ class MainQueryRouterLLM:
         
         # Khởi tạo LLM để phân loại
         try:
-            api_key = "AIzaSyD5SBdzXkqz4BqwmcS-et6bY5d34ChIAAg"
+            api_key = os.environ.get("GOOGLE_API_KEY", "")
             if not api_key:
                 raise ValueError("Biến môi trường GOOGLE_API_KEY chưa được thiết lập.")
             genai.configure(api_key=api_key)
@@ -44,7 +58,8 @@ class MainQueryRouterLLM:
         mapping = {
             "qcdt": "Đào tạo",
             "qcctsv": "Công tác Sinh viên",
-            "qctdkt": "Thi đua Khen thưởng"
+            "qctdkt": "Thi đua Khen thưởng",
+            "tuyensinh": "Tuyển sinh"
         }
         return mapping.get(topic_key, topic_key)
 
@@ -56,7 +71,7 @@ class MainQueryRouterLLM:
         prompt = f"""Bạn là một hệ thống phân tích và định tuyến truy vấn thông minh cho chatbot của một trường đại học. Hãy phân tích câu hỏi của người dùng và trả về một đối tượng JSON.
 
 Đối tượng JSON phải có 2 key:
-1. "topic": Chủ đề của câu hỏi. Giá trị phải là MỘT trong các chuỗi sau: ["Đào tạo", "Công tác Sinh viên", "Thi đua Khen thưởng"].
+1. "topic": Chủ đề của câu hỏi. Giá trị phải là MỘT trong các chuỗi sau: ["Đào tạo", "Công tác Sinh viên", "Thi đua Khen thưởng", "Tuyển sinh"].
 2. "intent": Ý định của câu hỏi. Giá trị phải là MỘT trong các chuỗi sau: ["Definition", "List", "Yes/No", "Factoid", "Inference"].
 
 Ví dụ:
